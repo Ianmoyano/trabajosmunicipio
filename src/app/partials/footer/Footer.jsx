@@ -2,6 +2,6 @@ import React from "react";
 
 export const Footer = () => {
     return(
-        <div>Footer</div>
+        <footer class="Footer">© 2023 Municipio oficial de Bahía blanca - Todos los derechos reservados </footer>
     )
 }
