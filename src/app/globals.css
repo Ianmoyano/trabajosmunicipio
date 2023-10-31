@@ -20,17 +20,18 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
 text-decoration: underline;
 }
 
-
-
-
-
-
-
-
-
-
-
 .infociudad{
   font-size: 25px;
   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+  .Footer{
+background-color: black;
+color: white;
+height: 22px;
+opacity: 80%;
+border: solid;
+border-color: grey;
+width: 570px;
+
 }
