@@ -1,8 +1,13 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import { Main } from "./partials/main/Main"
+import { Titulo } from "./partials/titulo/titulo"
+import { Footer } from "./partials/footer/Footer"
 
 export default function Home() {
   return (
-<div>Hola buenos dias adsd tegetet</div>
+<>
+<Titulo/>
+<Main/>
+<Footer/>
+</>
   )
 }
