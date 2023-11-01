@@ -6,7 +6,9 @@ export default function Home() {
   return (
 <>
 <Titulo/>
+
 <Main/>
+
 <Footer/>
 
 
