@@ -8,6 +8,8 @@ export default function Home() {
 <Titulo/>
 <Main/>
 <Footer/>
+
+
 </>
   )
 }

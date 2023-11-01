@@ -2,7 +2,7 @@
   height: 110px;
   width: 1862px;
   background-color: rgb(48, 181, 221);
-  color: rgb(0, 0, 0);
+  
   font-size: 30px;
   top: -1%;
   left: 0%;
@@ -13,16 +13,18 @@
   font-size: 30px;
   top: 4%;
   left: 40%;
-  opacity: 60%;
+  opacity: 70%;
 position: absolute;
 text-align: center;
 font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 text-decoration: underline;
+color: rgb(0, 0, 0);
 }
 
 .infociudad{
   font-size: 25px;
   font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
 
   .Footer{
@@ -34,4 +36,8 @@ border: solid;
 border-color: grey;
 width: 570px;
 
+}
+
+body{
+  background-color: rgb(210, 234, 255);
 }
