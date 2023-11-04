@@ -22,19 +22,20 @@ color: rgb(0, 0, 0);
 }
 
 .infociudad{
-  font-size: 25px;
+  font-size: 35px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-
+position: relative;
+top: 10px;
 }
 
   .Footer{
 background-color: black;
 color: white;
-height: 22px;
+height: 220px;
 opacity: 80%;
 border: solid;
 border-color: grey;
-width: 570px;
+width: 2000px;
 
 }
 
@@ -46,4 +47,34 @@ body{
   background-color: rgb(231, 175, 175);
   height: 40px;
   width: 300px;
+}
+
+.imagen1{
+  position: relative;
+  bottom: 390px;
+  left: 1100px;
+  width:700px;
+ height:390px;
+}
+
+.rectangulo{
+  background-color: black;
+  width: 1050px;
+  height: 5px;
+  position: relative;
+  top: 10px;
+}
+
+
+
+.carousel-inner{
+height: 600px;
+position: relative;
+bottom: 350px;
+}
+
+.empleos{
+  position: relative;
+  bottom: 300px;
+  background-color: lightblue;
 }
