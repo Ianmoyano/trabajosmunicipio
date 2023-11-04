@@ -1,8 +1,7 @@
 .Titulo {
   height: 110px;
   width: 1862px;
-  background-color: rgb(48, 181, 221);
-  
+  background-image: linear-gradient(to right, lightblue , yellow);
   font-size: 30px;
   top: -5%;
   left: 0%;
@@ -40,7 +39,7 @@ width: 2000px;
 }
 
 body{
-  background-color: rgb(210, 234, 255);
+  background-image: linear-gradient(to right, white , grey);
 }
 
 .boton{

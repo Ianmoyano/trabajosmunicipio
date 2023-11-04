@@ -7,7 +7,7 @@ export const Main = () => {
       <li class="infociudad">Bahía Blanca es una ciudad que se fundo en 1828.</li>
       <li class="infociudad">Actualmente tiene una cantidad de 335.190 habitantes.</li>
       <li class="infociudad">Está ubicada en el sudoeste de la provincia de Buenos Aires, <br></br>
-        en el centro-este de la Argentina</li>
+      ㅤ en el centro-este de la Argentina</li>
       <li class="infociudad">Actualmente tiene una cantidad de 335.190 habitantes.</li>
       <li class="infociudad">Actualmente tiene una cantidad de 335.190 habitantes.</li>
       <li class="infociudad">Actualmente tiene una cantidad de 335.190 habitantes.</li>
