@@ -32,11 +32,13 @@ left: 25px;
   .Footer{
 background-color: black;
 color: white;
-height: 500px;
+height: 300px;
 opacity: 80%;
 border: solid;
 border-color: grey;
 width: 1862px;
+position: absolute;
+margin-top:1px!important;
 
 }
 
@@ -122,4 +124,9 @@ text-align: center ;
   right: 15px;
   height: 200px;
   width: 100px;
+}
+
+.enviar{
+  height: 20px;
+  width: 20px;
 }

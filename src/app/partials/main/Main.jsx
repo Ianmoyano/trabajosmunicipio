@@ -1,8 +1,8 @@
 import React from "react";
 
 export const Main = () => {
-  return (
-    <>
+  return <div>
+    
       <br />
       <p class="infociudad"><div class="rectangulo3"> ㅤ</div><div class="rectangulo2"></div>Bahía Blanca es una ciudad que se fundo en 1828.
         <br></br><div class="rectangulo2"></div>Coronel Ramón Bernabé Estomba fue el fundador de la ciudad de Bahía Blanca
@@ -22,7 +22,7 @@ export const Main = () => {
 
       <button class="boton">Empleos disponibles</button>
 
-    </>
+  </div>
 
-  )
+  
 }
