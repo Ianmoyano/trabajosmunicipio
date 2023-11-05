@@ -5,7 +5,8 @@
   font-size: 30px;
   top: -5%;
   left: 0%;
-  border-radius: 15px;
+ border: solid;
+ border-color: black;
 }
 
 .titulo2{
@@ -21,59 +22,104 @@ color: rgb(0, 0, 0);
 }
 
 .infociudad{
-  font-size: 35px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 position: relative;
-top: 10px;
+top: -350px;
+left: 25px;
 }
 
   .Footer{
 background-color: black;
 color: white;
-height: 220px;
+height: 500px;
 opacity: 80%;
 border: solid;
 border-color: grey;
-width: 2000px;
+width: 1862px;
 
 }
 
 body{
-  background-image: linear-gradient(to right, white , grey);
+  background-color:rgb(213, 255, 213);
 }
 
 .boton{
-  background-color: rgb(231, 175, 175);
-  height: 40px;
+  position: relative;
+  background-image: linear-gradient(to right, lightblue , yellow);;
+  height: 60px;
   width: 300px;
+left: 1350px;
+top: -1050px;
+
 }
 
 .imagen1{
   position: relative;
-  bottom: 390px;
-  left: 1100px;
-  width:700px;
- height:390px;
+  bottom:864px;
+  left: 1400px;
+  width:400px;
+ height:380px;
+border-radius: 5px;
+border:solid ;
+border-color: black;
 }
 
+.imagen2{
+  position: relative;
+  left: -370px;
+  border-radius: 5px;
+  border:solid ;
+  border-color: black;
+  width:1100px;
+ height:550px;
+top: -340px;
+}
 .rectangulo{
   background-color: black;
-  width: 1050px;
-  height: 5px;
+  width: 1830px;
+  height: 3px;
   position: relative;
-  top: 10px;
+  top: -370px;
+left: 15px;
 }
 
+.rectangulo2{
+  background-color: black;
+  width: 5px;
+  height: 20px;
+  position: relative;
+  top: 32px;
+left: -15px;
+}
 
-
-.carousel-inner{
-height: 600px;
-position: relative;
-bottom: 350px;
+.rectangulo3{
+  background-color: black;
+  width: 3px;
+  height: 340px;
+  position: relative;
+  top: 365px;
+left: 1300px;
 }
 
 .empleos{
   position: relative;
-  bottom: 300px;
-  background-color: lightblue;
+text-align: center ;
+  bottom: 890px;
+  left: 1150px;
+  background-color: antiquewhite;
+  width: 700px;
+  height: 550px;
+  font-size: 38px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 5px;
+  border-color: black;
+  border: solid;
+}
+
+.escudo{
+  position: absolute;
+  right: 15px;
+  height: 200px;
+  width: 100px;
 }
