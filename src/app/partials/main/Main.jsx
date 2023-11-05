@@ -1,7 +1,7 @@
 import React from "react";
 
 export const Main = () => {
-  return <div>
+  return(<><div>
     
       <br />
       <p class="infociudad"><div class="rectangulo3"> ㅤ</div><div class="rectangulo2"></div>Bahía Blanca es una ciudad que se fundo en 1828.
@@ -23,6 +23,6 @@ export const Main = () => {
       <button class="boton">Empleos disponibles</button>
 
   </div>
-
-  
+</>
+  )
 }

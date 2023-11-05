@@ -3,14 +3,14 @@ import React from "react";
 import { useForm } from "react-hook-form";
 import { edadValidator } from "./validator.js";
 
-export const Empleos = () => {
+export const CV = () => {
   const { register, formState: { errors }, handleSubmit } = useForm();
 
   const onSubmit = (data) => {
     console.log(data);
   }
 
-  return (
+  return ( <>
     <div>
       <h2>Introduce tu CV aquí</h2>
       <form onSubmit={handleSubmit(onSubmit)}>
@@ -67,7 +67,8 @@ export const Empleos = () => {
         <input type="submit" value="Enviar CV" />
       </form>
     </div>
+ </>
   );
 }
 
-export default Empleos;
+export default CV;

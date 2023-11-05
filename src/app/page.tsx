@@ -1,17 +1,15 @@
 import { Main } from "./partials/main/Main"
 import { Titulo } from "./partials/titulo/titulo"
 import { Footer } from "./partials/footer/Footer"
-import { Empleos } from "./partials/empleosdisponibles/Empleos"
+import { CV } from "./partials/curriculum/CV"
+import {Empleosdisponibles} from "./partials/empleos/Empleosdisponibles"
 
-export default function Home() {
-  return (
-<>
-<Titulo/>
+export default function Home()  {
+  return (<>
 
-<Main/>
-
-<Footer/>
-
-</>
+   <Empleosdisponibles/>
+    
+ 
+ </>
   )
 }
