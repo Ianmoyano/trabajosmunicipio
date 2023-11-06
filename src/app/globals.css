@@ -1,47 +1,48 @@
 .Titulo {
   height: 110px;
   width: 1862px;
-  background-image: linear-gradient(to right, lightblue , yellow);
+  background-image: linear-gradient(to right, lightblue, yellow);
   font-size: 30px;
   top: -5%;
   left: 0%;
- border: solid;
- border-color: black;
+  border: solid;
+  border-color: black;
 }
 
-.titulo2{
+.titulo2 {
   font-size: 30px;
   top: 4%;
   left: 40%;
   opacity: 70%;
-position: absolute;
-text-align: center;
-font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-text-decoration: underline;
-color: rgb(0, 0, 0);
+  position: absolute;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: underline;
+  color: rgb(0, 0, 0);
 }
 
-.infociudad{
+.infociudad {
   font-size: 30px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-position: relative;
-top: -350px;
-left: 25px;
+  position: relative;
+  top: -350px;
+  left: 25px;
 }
 
-  .Footer{
-background-color: black;
-color: white;
-position: absolute;
-top: 1300px;
-height: 825px;
-opacity: 80%;
-border: solid;
-border-color: grey;
-width: 1862px;
+.Footer {
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 1300px;
+  height: 825px;
+  opacity: 88%;
+  border: solid;
+  border-color: grey;
+  width: 1862px;
+  font-size: 25px;
 }
 
-.Footer2{
+.Footer2 {
   background-color: black;
   color: white;
   position: absolute;
@@ -51,71 +52,73 @@ width: 1862px;
   border: solid;
   border-color: grey;
   width: 1862px;
-  }
-
-body{
-  background-color:rgb(213, 255, 213);
 }
 
-.boton{
+body {
+  background-color: rgb(213, 255, 213);
+}
+
+.boton {
   position: relative;
-  background-image: linear-gradient(to right, lightblue , yellow);;
+  background-image: linear-gradient(to right, lightblue, yellow);
+  ;
   height: 60px;
   width: 300px;
-left: 1350px;
-top: -1050px;
+  left: 1350px;
+  top: -1050px;
 
 }
 
-.imagen1{
+.imagen1 {
   position: relative;
-  bottom:864px;
+  bottom: 864px;
   left: 1400px;
-  width:400px;
- height:380px;
-border-radius: 5px;
-border:solid ;
-border-color: black;
+  width: 400px;
+  height: 380px;
+  border-radius: 5px;
+  border: solid;
+  border-color: black;
 }
 
-.imagen2{
+.imagen2 {
   position: relative;
   left: -370px;
   border-radius: 5px;
-  border:solid ;
+  border: solid;
   border-color: black;
-  width:1100px;
- height:550px;
-top: -340px;
+  width: 1100px;
+  height: 550px;
+  top: -340px;
 }
-.rectangulo{
+
+.rectangulo {
   background-color: black;
   width: 1830px;
   height: 3px;
   position: relative;
   top: -370px;
-left: 15px;
+  left: 15px;
 }
 
-.rectangulo2{
+.rectangulo2 {
   background-color: black;
   width: 5px;
   height: 20px;
   position: relative;
   top: 32px;
-left: -15px;
+  left: -15px;
 }
 
-.rectangulo3{
+.rectangulo3 {
   background-color: black;
   width: 3px;
   height: 340px;
   position: relative;
   top: 365px;
-left: 1300px;
+  left: 1300px;
 }
 
-.rectangulo4{
+.rectangulo4 {
   background-color: black;
   width: 1830px;
   height: 4px;
@@ -124,7 +127,7 @@ left: 1300px;
   bottom: 935px;
 }
 
-.rectangulo5{
+.rectangulo5 {
   background-color: black;
   width: 1830px;
   height: 4px;
@@ -133,7 +136,7 @@ left: 1300px;
   bottom: 870px;
 }
 
-.mun{
+.mun {
   position: relative;
   text-align: center;
   left: 15px;
@@ -144,9 +147,9 @@ left: 1300px;
 
 
 
-.empleos{
+.empleos {
   position: relative;
-text-align: center ;
+  text-align: center;
   bottom: 890px;
   left: 1150px;
   background-color: antiquewhite;
@@ -159,56 +162,52 @@ text-align: center ;
   border: solid;
 }
 
-.escudo{
-  position: absolute;
-  right: 15px;
-  height: 200px;
-  width: 100px;
+
+
+.trabajos {
+  text-align: center;
+  width: 851px;
+  height: 280px;
+  background-color: lightblue;
+  position: relative;
+  left: 50px;
+  font-size: 35px;
+  border: solid;
+  border-color: rgb(83, 83, 83);
+  border-radius: 1%;
 }
 
-.trabajos{
-text-align: center;
-width: 851px;
-height: 280px;
-background-color: lightblue;
-position: relative;
-left: 50px;
-font-size: 35px;
-border: solid;
-border-color: rgb(83, 83, 83);
-border-radius: 1%;
-}
-.trabajos-container2{
-position: relative;
-bottom: 851px;
-right: 100px;
-float: right;
+.trabajos-container2 {
+  position: relative;
+  bottom: 851px;
+  right: 100px;
+  float: right;
 }
 
-.trabajos-container1{
+.trabajos-container1 {
   position: relative;
   top: 37px;
 }
 
-.datos{
+.datos {
   text-align: left;
   position: relative;
-  left:10px ;
+  left: 10px;
   font-size: 22px;
   bottom: 10px;
 }
 
-.imgtrabajos{
+.imgtrabajos {
   position: absolute;
-  bottom: 60px;  
+  bottom: 60px;
   left: 550px;
   height: 200px;
   width: 270px;
-border: solid;
-border-color: black;
+  border: solid;
+  border-color: black;
 }
 
-.botoncv{
+.botoncv {
   position: absolute;
   text-align: center;
   right: 25px;
@@ -222,21 +221,54 @@ border-color: black;
   background-color: rgb(206, 238, 255);
 }
 
-.subtitulotrabajos{
+.subtitulotrabajos {
   position: relative;
   top: 15px;
   left: 20px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.buscatrab{
+.buscatrab {
   position: relative;
   float: right;
   right: 50px;
   bottom: 35px;
   height: 50px;
-  border:solid ;
-border-radius: 5px;
-border-color: black ;
-background-color: rgb(206, 238, 255);
+  border: solid;
+  border-radius: 5px;
+  border-color: black;
+  background-color: rgb(206, 238, 255);
+}
+
+.bandera {
+  position: absolute;
+  text-align: left;
+  right: 10px;
+  height: 300px;
+  width: 500px;
+  bottom: 300px;
+}
+
+.wasap{
+  position: relative;
+  width: 50px;
+  height: 50px;
+  left: 2px;
+  top: 200px;
+}
+
+.maps{
+  position: relative;
+  width: 40px;
+  height: 50px;
+  left: 4px;
+  top: 200px;
+}
+
+.escudo{
+  position: absolute;
+width: 60px;
+height: 103px;
+top: 3px;
+right: 640px;
 }
