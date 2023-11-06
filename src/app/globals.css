@@ -32,14 +32,12 @@ left: 25px;
   .Footer{
 background-color: black;
 color: white;
-height: 300px;
+height: 800px;
 opacity: 80%;
 border: solid;
 border-color: grey;
 width: 1862px;
 position: absolute;
-margin-top:1px!important;
-
 }
 
 body{
@@ -126,7 +124,49 @@ text-align: center ;
   width: 100px;
 }
 
-.enviar{
-  height: 20px;
-  width: 20px;
+.trabajos{
+text-align: center;
+width: 851px;
+height: 280px;
+background-color: lightblue;
+position: relative;
+left: 50px;
+font-size: 35px;
+border: solid;
+border-color: rgb(83, 83, 83);
+border-radius: 1%;
+}
+.trabajos-container2{
+position: relative;
+bottom: 851px;
+right: 100px;
+float: right;
+}
+
+.trabajos-container1{
+  position: relative;
+  top: 37px;
+}
+
+.datos{
+  text-align: left;
+  position: relative;
+  left:10px ;
+}
+
+.imgtrabajos{
+  position: absolute;
+  bottom: 60px;  
+  left: 550px;
+  height: 200px;
+  width: 270px;
+border: solid;
+border-color: black;
+}
+
+.botoncv{
+  position: absolute;
+  right: 25px;
+  bottom: 6px;
+  width: 270px;
 }
