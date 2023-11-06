@@ -32,9 +32,9 @@ left: 25px;
   .Footer{
 background-color: black;
 color: white;
-position: relative;
-bottom: 500;
-height: 800px;
+position: absolute;
+top: 1300px;
+height: 825px;
 opacity: 80%;
 border: solid;
 border-color: grey;
@@ -114,6 +114,35 @@ left: -15px;
   top: 365px;
 left: 1300px;
 }
+
+.rectangulo4{
+  background-color: black;
+  width: 1830px;
+  height: 4px;
+  position: relative;
+  left: 15px;
+  bottom: 935px;
+}
+
+.rectangulo5{
+  background-color: black;
+  width: 1830px;
+  height: 4px;
+  position: relative;
+  left: 15px;
+  bottom: 870px;
+}
+
+.mun{
+  position: relative;
+  text-align: center;
+  left: 15px;
+  bottom: 900px;
+  font-size: 25px;
+}
+
+
+
 
 .empleos{
   position: relative;

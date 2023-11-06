@@ -22,6 +22,11 @@ export const Main = () => {
 
       <button class="boton">Empleos disponibles</button>
 
+      <div class="rectangulo4"> ㅤ</div>
+      <div class="mun">Municipio de Bahía Blanca</div>
+      <div class="rectangulo5"> ㅤ</div>
+      
+
   </div>
 </>
   )
