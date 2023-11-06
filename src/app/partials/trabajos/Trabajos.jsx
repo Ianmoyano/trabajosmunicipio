@@ -19,7 +19,7 @@ export const Trabajos = () => {
                     <li class="datos">Dias: 4</li>
                     <li class="datos">Rubro: Educación</li>
                     <li class="datos">Remuneración: al menos 7$</li>
-                    <img class="imgtrabajos" src="./img/obrero.avif" />
+                    <img class="imgtrabajos" src="./img/profe.png" />
                     <button class="botoncv">Enviar CV</button>
                 </p>
                 <p class="trabajos">Electricista
@@ -27,7 +27,7 @@ export const Trabajos = () => {
                     <li class="datos">Dias: 4</li>
                     <li class="datos">Rubro: Educación</li>
                     <li class="datos">Remuneración</li>
-                    <img class="imgtrabajos" src="./img/obrero.avif" />
+                    <img class="imgtrabajos" src="./img/electricista.jpg" />
                     <button class="botoncv">Enviar CV</button>
                 </p></div>
 
@@ -38,7 +38,7 @@ export const Trabajos = () => {
                     <li class="datos">Dias: 4</li>
                     <li class="datos">Rubro: Educación</li>
                     <li class="datos">Remuneración</li>
-                    <img class="imgtrabajos" src="./img/obrero.avif" />
+                    <img class="imgtrabajos" src="./img/peluquero.jpg" />
                     <button class="botoncv">Enviar CV</button>
                 </p>
                 <p class="trabajos">Carpintero
@@ -46,15 +46,15 @@ export const Trabajos = () => {
                     <li class="datos">Dias: 4</li>
                     <li class="datos">Rubro: Educación</li>
                     <li class="datos">Remuneración</li>
-                    <img class="imgtrabajos" src="./img/obrero.avif" />
+                    <img class="imgtrabajos" src="./img/carpintero.webp" />
                     <button class="botoncv">Enviar CV</button>
                 </p>
-                <p class="trabajos">Enfermero
+                <p class="trabajos">Enfermera
                 <li class="datos">Horario: 4HS</li>
                     <li class="datos">Dias: 4</li>
                     <li class="datos">Rubro: Educación</li>
                     <li class="datos">Remuneración</li>
-                    <img class="imgtrabajos" src="./img/obrero.avif" />
+                    <img class="imgtrabajos" src="./img/enfermera.jpg" />
                     <button class="botoncv">Enviar CV</button>
                     </p>
 
