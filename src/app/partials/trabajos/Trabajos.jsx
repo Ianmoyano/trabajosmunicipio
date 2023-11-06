@@ -3,6 +3,8 @@ import React from "react";
 export const Trabajos = () => {
     return (
         <>
+        <h2 class="subtitulotrabajos">Trabajos disponibles :</h2>
+        <button class="buscatrab">Personas en busca de trabajo</button>
             <div class="trabajos-container1">
                 <p class="trabajos">Obrero
                 <li class="datos">Empleador: Cooperativa Obrera Ltda</li>
