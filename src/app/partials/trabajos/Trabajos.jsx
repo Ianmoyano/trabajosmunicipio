@@ -69,7 +69,7 @@ export const Trabajos = () => {
                     <li class="datos">Requisitos: Titulo en enfermería</li>
                     <li class="datos">Horario: 7hs todos los días</li>
                     <img class="imgtrabajos" src="./img/enfermera.jpg" />
-                    <button class="botoncv">Enviar CV</button>
+                    <button class="botoncv">Enviar Cv</button>
                     </p>
 
 
