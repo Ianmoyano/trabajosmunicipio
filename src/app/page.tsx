@@ -8,7 +8,7 @@ export default function Home()  {
   return (<>
 
 <Titulo/>
-<Trabajos/>
+<Main/>
 <Footer/>
     
  </>

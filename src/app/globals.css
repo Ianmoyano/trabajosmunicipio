@@ -32,13 +32,26 @@ left: 25px;
   .Footer{
 background-color: black;
 color: white;
+position: relative;
+bottom: 500;
 height: 800px;
 opacity: 80%;
 border: solid;
 border-color: grey;
 width: 1862px;
-position: absolute;
 }
+
+.Footer2{
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 1120px;
+  height: 800px;
+  opacity: 80%;
+  border: solid;
+  border-color: grey;
+  width: 1862px;
+  }
 
 body{
   background-color:rgb(213, 255, 213);
