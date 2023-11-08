@@ -5,6 +5,7 @@ export const Trabajos = () => {
         <>
         <h2 class="subtitulotrabajos">Trabajos disponibles :</h2>
         <button class="buscatrab">Personas en busca de trabajo</button>
+        <input type="text" class="filtrar" placeholder="Filtar por..."></input>
             <div class="trabajos-container1">
                 <div class="trabajos">Obrero
                 <ul>
