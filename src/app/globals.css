@@ -55,10 +55,6 @@
   font-size: 25px;
 }
 
-body {
-  background-color: rgb(213, 255, 213);
-}
-
 .boton {
   position: relative;
   background-image: linear-gradient(to right, lightblue, yellow);
@@ -72,7 +68,7 @@ body {
 
 .imagen1 {
   position: relative;
-  bottom: 864px;
+  bottom: 854px;
   left: 1400px;
   width: 400px;
   height: 380px;

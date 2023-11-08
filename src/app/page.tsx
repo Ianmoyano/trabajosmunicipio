@@ -9,8 +9,8 @@ export default function Home()  {
   return (<>
 
 <Titulo/>
-<Trabajos/>
-<Footer2/>
+<Main/>
+<Footer/>
     
  </>
   )
