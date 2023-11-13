@@ -319,3 +319,29 @@ right: 640px;
   width: 620px;
   height: 35px;
 }
+
+
+.englobador{
+  float: right;
+  background-color: rgb(189, 225, 225);
+  height: 700px;
+  width: 550px;
+  position: relative;
+  top: 100px;
+  right: 40px;
+  font-size: 20px;
+  padding-top: 45px;
+  padding-left: 95px;
+  border: solid;
+  border-color: black;
+  border-radius: 10px;
+  font-family: sans-serif;
+  
+}
+
+
+.cv{
+  font-size: 35px;
+  
+}
+
