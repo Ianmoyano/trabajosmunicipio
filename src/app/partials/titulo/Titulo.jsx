@@ -6,18 +6,18 @@ import { useRouter } from "next/navigation"
 export const Titulo = () => {
   const router = useRouter();
   const navegarAEmpleos = () => {
-    router.push("empleo")
+    router.push("empleos")
   }
   const navegarACandidatos = () => {
     router.push("candidatos")
   }
   const navegarAMenu = () => {
-    router.push("")
+    router.push("main")
   }
   return (
     <>
       <img className="escudo" src="./img/bahiaescudo.png" ></img>
-      <div className="Titulo"></div><div class="titulo2">Municipalidad de Bahía Blanca</div>
+      <div className="Titulo"></div><div className="titulo2">Municipalidad de Bahía Blanca</div>
 
       <button onClick={() => navegarAMenu()} className="botonroute">Menu</button>
       <button onClick={() => navegarAEmpleos()} className="botonroute">Empleos disponibles</button>
