@@ -18,7 +18,7 @@ export const CV = () => {
       <Card style={{ width: '30rem' }}>
         <Card.Body>
           <Card.Title>Juan Ignacio Suarez</Card.Title>
-          <Card.Subtitle className="mb-1 text-muted">Rubro: Automotor</Card.Subtitle>
+          <Card.Subtitle className="mb-1 text-muted">Rubro: automotor</Card.Subtitle>
           <Card.Text>
             <ul>
             <li>Edad: 19 años.</li>
@@ -31,14 +31,14 @@ export const CV = () => {
       </Card>
       <Card style={{ width: '30rem' }}>
         <Card.Body>
-          <Card.Title>Juan Ignacio Suarez</Card.Title>
-          <Card.Subtitle className="mb-1 text-muted">Rubro: Automotor</Card.Subtitle>
+          <Card.Title>Matia Mostajo</Card.Title>
+          <Card.Subtitle className="mb-1 text-muted">Rubro: cadenas de comida rápida.</Card.Subtitle>
           <Card.Text>
           <ul>
-            <li>Edad: 19 años.</li>
+            <li>Edad: 25 años.</li>
             <li>Full timen: no.</li>
             <li>Movilidad: si.</li>
-            <li>Cualidades: puntualidad, compromiso, carisma, ...</li>
+            <li>Cualidades: puntualidad, compromiso, adaptacion ...</li>
             </ul>
           </Card.Text>
           <Card.Link href="#">Curriculum Vitae</Card.Link>
@@ -46,14 +46,14 @@ export const CV = () => {
       </Card>
       <Card style={{ width: '30rem' }}>
         <Card.Body>
-          <Card.Title>Juan Ignacio Suarez</Card.Title>
-          <Card.Subtitle className="mb-1 text-muted">Rubro: Automotor</Card.Subtitle>
+          <Card.Title>Ian Lucca Moyano</Card.Title>
+          <Card.Subtitle className="mb-1 text-muted">Rubro: obra</Card.Subtitle>
           <Card.Text>
           <ul>
-            <li>Edad: 19 años.</li>
-            <li>Full timen: no.</li>
-            <li>Movilidad: si.</li>
-            <li>Cualidades: puntualidad, compromiso, carisma, ...</li>
+            <li>Edad: 18 años.</li>
+            <li>Full time: si.</li>
+            <li>Movilidad: no.</li>
+            <li>Cualidades: puntualidad, facil aprendizaje, carisma, ...</li>
             </ul>
           </Card.Text>
           <Card.Link href="#">Curriculum Vitae</Card.Link>
@@ -61,14 +61,14 @@ export const CV = () => {
       </Card>
       <Card style={{ width: '30rem' }}>
         <Card.Body>
-          <Card.Title>Juan Ignacio Suarez</Card.Title>
-          <Card.Subtitle className="mb-1 text-muted">Rubro: Automotor</Card.Subtitle>
+          <Card.Title>Thiago Schiaffino Dechia</Card.Title>
+          <Card.Subtitle className="mb-1 text-muted">Rubro: hoteleria</Card.Subtitle>
           <Card.Text>
           <ul>
             <li>Edad: 19 años.</li>
             <li>Full timen: no.</li>
-            <li>Movilidad: si.</li>
-            <li>Cualidades: puntualidad, compromiso, carisma, ...</li>
+            <li>Movilidad:noi.</li>
+            <li>Cualidades: puntualidad, compromiso, fluidez, ...</li>
             </ul>
           </Card.Text>
           <Card.Link href="#">Curriculum Vitae</Card.Link>
@@ -76,14 +76,14 @@ export const CV = () => {
       </Card>
       <Card style={{ width: '30rem' }}>
         <Card.Body>
-          <Card.Title>Juan Ignacio Suarez</Card.Title>
-          <Card.Subtitle className="mb-1 text-muted">Rubro: Automotor</Card.Subtitle>
+          <Card.Title>Joaquin Lopez</Card.Title>
+          <Card.Subtitle className="mb-1 text-muted">Rubro: vendedor</Card.Subtitle>
           <Card.Text>
           <ul>
-            <li>Edad: 19 años.</li>
-            <li>Full timen: no.</li>
+            <li>Edad: 15 años.</li>
+            <li>Full timen: si.</li>
             <li>Movilidad: si.</li>
-            <li>Cualidades: puntualidad, compromiso, carisma, ...</li>
+            <li>Cualidades: dedicacion, compromiso, carisma, ...</li>
             </ul>
           </Card.Text>
           <Card.Link href="#">Curriculum Vitae</Card.Link>
@@ -91,14 +91,14 @@ export const CV = () => {
       </Card>
       <Card style={{ width: '30rem' }}>
         <Card.Body>
-          <Card.Title>Juan Ignacio Suarez</Card.Title>
-          <Card.Subtitle className="mb-1 text-muted">Rubro: Automotor</Card.Subtitle>
+          <Card.Title>Miqueas Bequer</Card.Title>
+          <Card.Subtitle className="mb-1 text-muted">Rubro: restaurante</Card.Subtitle>
           <Card.Text>
           <ul>
-            <li>Edad: 19 años.</li>
+            <li>Edad: 28 años.</li>
             <li>Full timen: no.</li>
-            <li>Movilidad: si.</li>
-            <li>Cualidades: puntualidad, compromiso, carisma, ...</li>
+            <li>Movilidad: no.</li>
+            <li>Cualidades: inteligencia, compromiso, carisma, ...</li>
             </ul>
           </Card.Text>
           <Card.Link href="#">Curriculum Vitae</Card.Link>
