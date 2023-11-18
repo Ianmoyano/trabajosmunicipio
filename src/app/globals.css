@@ -322,11 +322,12 @@ right: 640px;
 
 
 .englobador{
+  
   float: right;
   background-color: rgb(189, 225, 225);
   position: relative;
-  top: 60px;
-  right: 120px;
+  top: 600px;
+  right: 684px;
   font-size: 20px;
   padding: 50px;
   border: solid;
@@ -352,11 +353,28 @@ right: 640px;
 }
 
 .rectangulo6 {
+ 
+  text-align: center;
   background-color: black;
-  width: 3px;
-  height: 600px;
+  width: 1200px;
+  height: 3px;
   position: relative;
-  top: 110px;
-  left: 1200px;
+  top: 550px;
+  left: 360px;
 }
+
+
+.cardscandi{
+ 
+  top: 50px;
+  left: 150px;
+  position: relative;
+  float: left;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+padding: 0px;
+gap: 20px;
+}
+
+
 

@@ -2,6 +2,8 @@
 import React from "react";
 import { useForm } from "react-hook-form";
 import { edadValidator } from "./validator.js";
+import Card from 'react-bootstrap/Card';
+import { Container } from "reactstrap";
 
 export const CV = () => {
   const { register, formState: { errors }, handleSubmit } = useForm();
@@ -11,6 +13,93 @@ export const CV = () => {
   }
 
   return ( <>
+    <Container className="cardscandi">
+    
+    <Card style={{ width: '30rem' }}>
+      <Card.Body>
+        <Card.Title>Juan Ignacio Suarez</Card.Title>
+        <Card.Subtitle className="mb-1 text-muted">Rubro: Automotor</Card.Subtitle>
+        <Card.Text>
+          <li>Edad: 19 años.</li>
+          <li>Full timen: no.</li>
+          <li>Movilidad: si.</li>
+          <li>Cualidades: puntualidad, compromiso, carisma, ...</li>
+        </Card.Text>
+        <Card.Link href="#">Curriculum Vitae</Card.Link>
+      </Card.Body>
+    </Card>
+    <Card style={{ width: '30rem' }}>
+      <Card.Body>
+        <Card.Title>Juan Ignacio Suarez</Card.Title>
+        <Card.Subtitle className="mb-1 text-muted">Rubro: Automotor</Card.Subtitle>
+        <Card.Text>
+          <li>Edad: 19 años.</li>
+          <li>Full timen: no.</li>
+          <li>Movilidad: si.</li>
+          <li>Cualidades: puntualidad, compromiso, carisma, ...</li>
+        </Card.Text>
+        <Card.Link href="#">Curriculum Vitae</Card.Link>
+      </Card.Body>
+    </Card>
+    <Card style={{ width: '30rem' }}>
+      <Card.Body>
+        <Card.Title>Juan Ignacio Suarez</Card.Title>
+        <Card.Subtitle className="mb-1 text-muted">Rubro: Automotor</Card.Subtitle>
+        <Card.Text>
+          <li>Edad: 19 años.</li>
+          <li>Full timen: no.</li>
+          <li>Movilidad: si.</li>
+          <li>Cualidades: puntualidad, compromiso, carisma, ...</li>
+        </Card.Text>
+        <Card.Link href="#">Curriculum Vitae</Card.Link>
+      </Card.Body>
+    </Card>
+    <Card style={{ width: '30rem' }}>
+      <Card.Body>
+        <Card.Title>Juan Ignacio Suarez</Card.Title>
+        <Card.Subtitle className="mb-1 text-muted">Rubro: Automotor</Card.Subtitle>
+        <Card.Text>
+          <li>Edad: 19 años.</li>
+          <li>Full timen: no.</li>
+          <li>Movilidad: si.</li>
+          <li>Cualidades: puntualidad, compromiso, carisma, ...</li>
+        </Card.Text>
+        <Card.Link href="#">Curriculum Vitae</Card.Link>
+      </Card.Body>
+    </Card>
+    <Card style={{ width: '30rem' }}>
+      <Card.Body>
+        <Card.Title>Juan Ignacio Suarez</Card.Title>
+        <Card.Subtitle className="mb-1 text-muted">Rubro: Automotor</Card.Subtitle>
+        <Card.Text>
+          <li>Edad: 19 años.</li>
+          <li>Full timen: no.</li>
+          <li>Movilidad: si.</li>
+          <li>Cualidades: puntualidad, compromiso, carisma, ...</li>
+        </Card.Text>
+        <Card.Link href="#">Curriculum Vitae</Card.Link>
+      </Card.Body>
+    </Card>
+    <Card style={{ width: '30rem' }}>
+      <Card.Body>
+        <Card.Title>Juan Ignacio Suarez</Card.Title>
+        <Card.Subtitle className="mb-1 text-muted">Rubro: Automotor</Card.Subtitle>
+        <Card.Text>
+          <li>Edad: 19 años.</li>
+          <li>Full timen: no.</li>
+          <li>Movilidad: si.</li>
+          <li>Cualidades: puntualidad, compromiso, carisma, ...</li>
+        </Card.Text>
+        <Card.Link href="#">Curriculum Vitae</Card.Link>
+      </Card.Body>
+    </Card>
+    </Container>
+    
+    
+    
+    
+    
+    
     <div className="englobador">
       <div className="cv">Introduce tu CV aquí</div><br></br>
       <form onSubmit={handleSubmit(onSubmit)}>
