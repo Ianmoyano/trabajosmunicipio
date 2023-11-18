@@ -1,98 +1,110 @@
 "use client"
 import React from "react";
 import { useRouter } from "next/navigation"
-
+import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
+import { Container } from "reactstrap";
 
 export const Trabajos = () => {
     const router = useRouter();
-  const navegarACandidatos = () => {
-    router.push("candidatos")
-  }
+    const navegarACandidatos = () => {
+        router.push("candidatos")
+    }
     return (
         <>
-        <h2 className="subtitulotrabajos">Trabajos disponibles :</h2>
-        <button onClick={() => navegarACandidatos()} className="buscatrab">Personas en busca de trabajo</button>
-        <input type="text" class="filtrar" placeholder="Filtrar por..."></input>
-            <div className="trabajos-container1">
-                <div className="trabajos">Obrero
-                <ul>
-                <li className="datos">Empleador: Cooperativa Obrera Ltda</li>
-                <li className="datos">Descripcion del puesto:Trabajo disponible en<br></br> 
-                Rondeau 800, como operador de máquinas para<br></br>
-                 trabajar la madera </li>
-                    <li className="datos">Rubro: Obra</li>
-                    <li className="datos">Requisitos: experiencia en operar máquinas</li>
-                    <li className="datos">Horario: 8hs Diarias (excepto domingos)</li>
-                    <img className="imgtrabajos" src="./img/obrero.avif" />
-                    <button className="botoncv">Enviar CV</button>
-                </ul></div> <br></br>
+
+            <h2 className="subtitulotrabajos">Trabajos disponibles :</h2>
+            <button onClick={() => navegarACandidatos()} className="buscatrab">Personas en busca de trabajo</button>
+            <Container className="cardsempleos">
+                <Card style={{ width: '18rem' }}>
+                    <Card.Img variant="top" src="./img/obrero.avif" />
+                    <Card.Body>
+                        <Card.Title>Obrero</Card.Title>
+                        <Card.Text>
+                            <br />
+                            _ 𝙀𝙢𝙥𝙡𝙚𝙖𝙙𝙤𝙧: Cooperativa Obrera.<br />
+                            _ 𝘿𝙚𝙨𝙘𝙧𝙞𝙥𝙘𝙞𝙤́𝙣 𝙙𝙚𝙡 𝙥𝙪𝙚𝙨𝙩𝙤: operador de máquinas para mover arena.<br />
+                            _ 𝙍𝙪𝙗𝙧𝙤: obra.<br />
+                            _ 𝙍𝙚𝙦𝙪𝙞𝙨𝙞𝙩𝙤𝙨: experiencia en operar máquina.<br />
+                            _ 𝙃𝙤𝙧𝙖𝙧𝙞𝙤: 8hs Diarias (excepto domingos).<br /><br />
+                        </Card.Text>
+                        <Button variant="primary">Enviar cv</Button>
+                    </Card.Body>
+                </Card>
+                <Card style={{ width: '18rem' }}>
+                    <Card.Img variant="top" src="./img/profe.png" />
+                    <Card.Body>
+                        <Card.Title>Profesor</Card.Title>
+                        <Card.Text>
+                            <br />
+                            _ 𝙀𝙢𝙥𝙡𝙚𝙖𝙙𝙤𝙧: escuela San Cayetano.<br />
+                            _ 𝘿𝙚𝙨𝙘𝙧𝙞𝙥𝙘𝙞𝙤́𝙣 𝙙𝙚𝙡 𝙥𝙪𝙚𝙨𝙩𝙤: trabajo disponible en la
+                            escuela<br />  San Cayetano como maestro de matemática. <br />
+                            _ 𝙍𝙪𝙗𝙧𝙤: educación. <br />
+                            _ 𝙍𝙚𝙦𝙪𝙞𝙨𝙞𝙩𝙤𝙨: titulo en el área de matemática.<br />
+                            _ 𝙃𝙤𝙧𝙖𝙧𝙞𝙤: 5hs de lunes a viernes.<br /><br /><br />
+                        </Card.Text>
+                        <Button variant="primary">Enviar cv</Button>
+                    </Card.Body>
+                </Card>
+                <Card style={{ width: '18rem' }}>
+                    <Card.Img variant="top" src="./img/electricista.jpg" />
+                    <Card.Body>
+                        <Card.Title>Electrisista</Card.Title>
+                        <Card.Text>
+                            _ 𝙀𝙢𝙥𝙡𝙚𝙖𝙙𝙤𝙧: EDES.<br />
+                            _ 𝘿𝙚𝙨𝙘𝙧𝙞𝙥𝙘𝙞𝙤́𝙣 𝙙𝙚𝙡 𝙥𝙪𝙚𝙨𝙩𝙤: trabajo disponible en
+                            empresa electrica EDES.<br />
+                            _ Rubro: obra.<br />
+                            _ 𝙍𝙚𝙦𝙪𝙞𝙨𝙞𝙩𝙤𝙨: titulo en electricista y excasa
+                            experiencia.<br />
+                            _ 𝙃𝙤𝙧𝙖𝙧𝙞𝙤: 4hs diarias (no incluye fin de semanas).
 
 
-                <div className="trabajos">Maestro
-                <ul>
-                <li className="datos">Empleador: Escuela San Cayetano</li>
-                <li className="datos">Descripcion del puesto: Trabajo disponible en la<br></br>  
-                escuela San Cayetano como maestro de matemática</li>
-                    <li className="datos">Rubro: Educación</li>
-                    <li className="datos">Requisitos: Titulo en el área de matemática</li>
-                    <li className="datos">Horario: 5hs de lunes a viernes</li>
-                    <img className="imgtrabajos" src="./img/profe.png" />
-                    <button className="botoncv">Enviar CV</button>
-                </ul></div><br></br>
-
-                <div className="trabajos">Electricista
-                <ul>
-                <li className="datos">Empleador: EDES</li>
-                <li className="datos">Descripcion del puesto: Trabajo disponible en la<br></br>
-                empresa electrica EDES</li>
-                    <li className="datos">Rubro: Obra</li>
-                    <li className="datos">Requisitos: Titulo en electricista y excasa <br></br>
-                    experiencia</li>
-                    <li className="datos">Horario: 4hs diarias (no incluye fin de semanas) </li>
-                    <img className="imgtrabajos" src="./img/electricista.jpg" />
-                    <button className="botoncv">Enviar CV</button>
-               </ul> </div></div>
-
-
-            <div className="trabajos-container2">
-                <div className="trabajos">Peluquero
-                <ul>
-                <li className="datos">Empleador: Vintage peluqueria</li>
-                <li className="datos">Descripcion del puesto: recepcionista en <br></br>
-                 peluqueria Vintage</li>
-                    <li className="datos">Rubro: Servicio</li>
-                    <li className="datos">Requisitos: Experiencia como recepcionista</li>
-                    <li className="datos">Horario: 6hs diarias</li>
-                    <img className="imgtrabajos" src="./img/peluquero.jpg" />
-                    <button className="botoncv">Enviar CV</button>
-               </ul> </div><br></br>
-
-                <div className="trabajos">Carpintero
-                <ul>
-                <li className="datos">Empleador: Aaron González</li>
-                <li className="datos">Descripcion del puesto: Ayudante en <br></br>
-                Aaron Carpintería</li>
-                    <li className="datos">Rubro: Obra</li>
-                    <li className="datos">Requisitos: Titulo en carpintería</li>
-                    <li className="datos">Horario: 6hs de lunes a sabados</li>
-                    <img className="imgtrabajos" src="./img/carpintero.webp" />
-                    <button className="botoncv">Enviar CV</button>
-               </ul> </div><br></br>
-               
-                <div className="trabajos">Enfermera
-                <ul>
-                <li className="datos">Empleador:Hospital Municipal de Agudos <br></br>
-                Dr. Leónidas Lucero</li>
-                <li className="datos">Descripcion del puesto: Ayudante en el hospital</li>
-                    <li className="datos">Rubro: Hospitalario</li>
-                    <li className="datos">Requisitos: Titulo en enfermería</li>
-                    <li className="datos">Horario: 7hs todos los días</li>
-                    <img className="imgtrabajos" src="./img/enfermera.jpg" />
-                    <button className="botoncv">Enviar CV</button>
-                   </ul> </div>
+                            <br /><br /><br /><br />
+                        </Card.Text>
+                        <Button variant="primary">Enviar cv</Button>
+                    </Card.Body>
+                </Card>
+                <Card style={{ width: '18rem' }}>
+                    <Card.Img variant="top" src="./img/peluquero.jpg" />
+                    <Card.Body>
+                        <Card.Title>Peluquero</Card.Title>
+                        <Card.Text>
+                            <br />
+                            _ 𝙀𝙢𝙥𝙡𝙚𝙖𝙙𝙤𝙧: Vintage peluqueria.<br />
+                            _ 𝘿𝙚𝙨𝙘𝙧𝙞𝙥𝙘𝙞𝙤́𝙣 𝙙𝙚𝙡 𝙥𝙪𝙚𝙨𝙩𝙤: recepcionista en peluqueria Vintage.<br />
+                            _ 𝙍𝙪𝙗𝙧𝙤: servicio.<br />
+                            _ 𝙍𝙚𝙦𝙪𝙞𝙨𝙞𝙩𝙤𝙨: experiencia como recepcionista.<br />
+                            _ 𝙃𝙤𝙧𝙖𝙧𝙞𝙤: 6hs diarias.<br />
+                            <br /><br /><br /><br /><br />
+                        </Card.Text>
+                        <Button variant="primary">Enviar cv</Button>
+                    </Card.Body>
+                </Card>
+                <Card style={{ width: '18rem' }}>
+                    <Card.Img variant="top" src="./img/carpintero.webp" />
+                    <Card.Body>
+                        <Card.Title>Carpintero</Card.Title>
+                        <Card.Text>
+                            <br />
+                            _ 𝙀𝙢𝙥𝙡𝙚𝙖𝙙𝙤𝙧: Aaron González.<br />
+                            _ 𝘿𝙚𝙨𝙘𝙧𝙞𝙥𝙘𝙞𝙤́𝙣 𝙙𝙚𝙡 𝙥𝙪𝙚𝙨𝙩𝙤: ayudante en
+                            Aaron Carpintería.<br />
+                            _ 𝙍𝙪𝙗𝙧𝙤: obra.<br />
+                            _ 𝙍𝙚𝙦𝙪𝙞𝙨𝙞𝙩𝙤𝙨: titulo en carpintería.<br />
+                            _𝙃𝙤𝙧𝙖𝙧𝙞𝙤: 6hs de lunes a sabados.
+                            <br /><br /><br /><br /><br />
+                        </Card.Text>
+                        <Button variant="primary">Enviar cv</Button>
+                    </Card.Body>
+                </Card>
 
 
-            </div>
+            </Container>
+
+
+
         </>
     )
 }
