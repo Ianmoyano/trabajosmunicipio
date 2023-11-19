@@ -15,6 +15,7 @@ export const Trabajos = () => {
 
             <h2 className="subtitulotrabajos">Trabajos disponibles :</h2>
             <button onClick={() => navegarACandidatos()} className="buscatrab">Personas en busca de trabajo</button>
+            
             <Container className="cardsempleos">
                 <Card style={{ width: '18rem' }}>
                     <Card.Img variant="top" src="./img/obrero.avif" />

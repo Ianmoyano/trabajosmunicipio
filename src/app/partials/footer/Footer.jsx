@@ -1,20 +1,38 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 export const Footer = () => {
-    return(
+    return (
         <>
-        <footer className="Footer">© 2023 Municipio oficial de Bahía blanca - Todos los derechos reservados
-        <br></br>
-        <img className="bandera" src="./img/bandera-de-bahia-blanca.jpg"  />
-       
-        <img className="face" src="./img/facebook.png"  />  <br></br><br></br>
-        <div className="facetext">Municipio Bahía Blanca</div>
-        <img className="wasap" src="./img/wasap.png"/> <br></br><br></br>
-        <div className="wasaptext">+54-291-235-6732</div>
-        <img className="map" src="./img/maps.png"/>
-        <div className="mapstext">Bahía Blanca, Provincia de Buenos Aires</div>
+            <footer className="Footer">
+                © 2023 Municipio oficial de Bahía Blanca - Todos los derechos reservados
+                <br />
+                <img className="bandera" src="./img/bandera-de-bahia-blanca.jpg" alt="Bandera de Bahía Blanca" />
 
-        </footer>
-    </>
-    )
-}
+                <div className="redes">
+                    <div className="redes-item">
+                        <img src="./img/facebook.png" alt="Facebook" width="100px" height="100px" />
+                        <div>Municipio Bahía Blanca</div>
+                    </div>
+
+                    <div className="redes-item">
+                        <img src="./img/wasap.png" alt="WhatsApp" width="100px" height="100px" />
+                        <div>+54-291-235-6732</div>
+                    </div>
+
+                    <div className="redes-item">
+                        <img src="./img/maps.png" alt="Ubicación" width="100px" height="100px" />
+                        <div>Bahía Blanca, Provincia de Buenos Aires</div>
+                    </div>
+                </div>
+            
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199222.78568479937!2d-62.420835042935536!3d-38.721114354202676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95edbcabdc1302bd%3A0x76d1d88d241e7a11!2sBah%C3%ADa%20Blanca%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1700355297289!5m2!1ses-419!2sar" 
+                width="300" 
+                height="300" 
+                style={{border:"0"}} 
+                allowFullScreen="" 
+                loading="lazy" 
+                referrerPolicy="no-referrer-when-downgrade"></iframe>
+            </footer>
+        </>
+    );
+};
