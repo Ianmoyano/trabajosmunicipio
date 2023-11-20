@@ -17,8 +17,8 @@ export const Trabajos = () => {
             <button onClick={() => navegarACandidatos()} className="buscatrab">Personas en busca de trabajo</button>
             
             <Container className="cardsempleos">
-                <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="./img/obrero.avif" />
+                <Card  style={{ width: '18rem' }}>
+                    <Card.Img className="cardfoto" variant="top" src="./img/obrero.avif" />
                     <Card.Body>
                         <Card.Title>Obrero</Card.Title>
                         <Card.Text>
@@ -29,11 +29,11 @@ export const Trabajos = () => {
                             _ 𝙍𝙚𝙦𝙪𝙞𝙨𝙞𝙩𝙤𝙨: experiencia en operar máquina.<br />
                             _ 𝙃𝙤𝙧𝙖𝙧𝙞𝙤: 8hs Diarias (excepto domingos).<br /><br />
                         </Card.Text>
-                        <Button variant="primary">Enviar cv</Button>
+                        <Button onClick={() => navegarACandidatos()} variant="primary">Enviar cv</Button>
                     </Card.Body>
                 </Card>
                 <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="./img/profe.png" />
+                    <Card.Img className="cardfoto" variant="top" src="./img/profe.png" />
                     <Card.Body>
                         <Card.Title>Profesor</Card.Title>
                         <Card.Text>
@@ -45,11 +45,11 @@ export const Trabajos = () => {
                             _ 𝙍𝙚𝙦𝙪𝙞𝙨𝙞𝙩𝙤𝙨: titulo en el área de matemática.<br />
                             _ 𝙃𝙤𝙧𝙖𝙧𝙞𝙤: 5hs de lunes a viernes.<br /><br /><br />
                         </Card.Text>
-                        <Button variant="primary">Enviar cv</Button>
+                        <Button onClick={() => navegarACandidatos()} variant="primary">Enviar cv</Button>
                     </Card.Body>
                 </Card>
                 <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="./img/electricista.jpg" />
+                    <Card.Img className="cardfoto" variant="top" src="./img/electricista.jpg" />
                     <Card.Body>
                         <Card.Title>Electrisista</Card.Title>
                         <Card.Text>
@@ -64,11 +64,11 @@ export const Trabajos = () => {
 
                             <br /><br /><br /><br />
                         </Card.Text>
-                        <Button variant="primary">Enviar cv</Button>
+                        <Button onClick={() => navegarACandidatos()} variant="primary">Enviar cv</Button>
                     </Card.Body>
                 </Card>
                 <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="./img/peluquero.jpg" />
+                    <Card.Img className="cardfoto" variant="top" src="./img/peluquero.jpg" />
                     <Card.Body>
                         <Card.Title>Peluquero</Card.Title>
                         <Card.Text>
@@ -80,11 +80,11 @@ export const Trabajos = () => {
                             _ 𝙃𝙤𝙧𝙖𝙧𝙞𝙤: 6hs diarias.<br />
                             <br /><br /><br /><br /><br />
                         </Card.Text>
-                        <Button variant="primary">Enviar cv</Button>
+                        <Button onClick={() => navegarACandidatos()} variant="primary">Enviar cv</Button>
                     </Card.Body>
                 </Card>
                 <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="./img/carpintero.webp" />
+                    <Card.Img className="cardfoto" variant="top" src="./img/carpintero.webp" />
                     <Card.Body>
                         <Card.Title>Carpintero</Card.Title>
                         <Card.Text>
@@ -97,7 +97,7 @@ export const Trabajos = () => {
                             _𝙃𝙤𝙧𝙖𝙧𝙞𝙤: 6hs de lunes a sabados.
                             <br /><br /><br /><br /><br />
                         </Card.Text>
-                        <Button variant="primary">Enviar cv</Button>
+                        <Button onClick={() => navegarACandidatos()} variant="primary">Enviar cv</Button>
                     </Card.Body>
                 </Card>
 
