@@ -9,7 +9,7 @@
   font-size: 30px;
   top: -5%;
   left: 0%;
-  
+
   border-color: black;
 }
 
@@ -17,12 +17,12 @@
   font-size: 30px;
   top: 4%;
   left: 40%;
-  
+
   position: absolute;
   text-align: center;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-decoration: underline;
-  color: rgb(255, 255, 255);
+  color: rgb(65, 65, 65);
 }
 
 .infociudad {
@@ -34,7 +34,7 @@
 }
 
 .Footer {
-  background-color: rgb(0, 0, 0);
+  background-image: linear-gradient(to top, rgb(0, 0, 0), rgb(26, 26, 26));
   color: white;
   position: absolute;
   top: 1300px;
@@ -74,11 +74,12 @@
   border-style: dashed;
   padding: 30px;
 }
+
 .imagen1 {
   position: absolute;
- height: 340px ;
- width: 340px;
- top: 180px;
+  height: 340px;
+  width: 340px;
+  top: 180px;
   left: 1340px;
   border-radius: 5px;
   border: solid;
@@ -87,17 +88,17 @@
 }
 
 .imagen2 {
- position: absolute;
- top: 600px;
- text-align: start;
-left: 40px;
-  
-border-radius: 5px;
+  position: absolute;
+  top: 600px;
+  text-align: start;
+  left: 40px;
+
+  border-radius: 5px;
   border: solid;
   border-color: black;
   width: 1050px;
   height: 520px;
-border-width: 2px;
+  border-width: 2px;
 
 }
 
@@ -199,9 +200,9 @@ border-width: 2px;
 
 .botoncv {
   position: absolute;
- 
 
- 
+
+
   width: 200px;
   height: 53px;
   border-radius: 5px;
@@ -216,7 +217,7 @@ border-width: 2px;
   top: 40px;
   left: 40px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-font-size: 30px;
+  font-size: 30px;
 }
 
 .buscatrab {
@@ -238,35 +239,42 @@ font-size: 30px;
 
 .bandera {
   position: relative;
-  text-align: left;
-  right: 10px;
+  float: right;
   height: 250px;
   width: 500px;
-bottom: 35px;
-left: 1350px;
+  bottom: 55px;
+  right: 30px;
 }
 
 .redes {
-  display: flex;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  position: relative;
+  top: 300px;
+  gap: 50px;
+  left: 20px;
+  width: 1200px;
 }
 
-.redes-item {
-  margin-right: 194px; 
-  display: flex; 
-  align-items: center; 
+.redinfo{
+  position: relative;
+  bottom: 60px;
+  left: 120px;
 }
 
-.escudo{
+
+
+
+.escudo {
   position: absolute;
-width: 60px;
-height: 103px;
-top: 3px;
-right: 640px;
+  width: 60px;
+  height: 103px;
+  top: 3px;
+  right: 640px;
 }
 
 
-.filtrar{
+.filtrar {
   background-image: linear-gradient(to right, lightblue, yellow);
   float: right;
   position: relative;
@@ -276,15 +284,15 @@ right: 640px;
   height: 40px;
 }
 
-.botonroute{
+.botonroute {
   background-color: lightblue;
   width: 620px;
   height: 35px;
 }
 
 
-.englobador{
-  
+.englobador {
+
   float: right;
   background-color: rgb(189, 225, 225);
   position: relative;
@@ -300,22 +308,23 @@ right: 640px;
 }
 
 
-.cv{
+.cv {
   font-size: 35px;
- 
-}
-.errores{
-  color: rgb(255, 0, 0);
- text-decoration: underline;
+
 }
 
-.submit{
+.errores {
+  color: rgb(255, 0, 0);
+  text-decoration: underline;
+}
+
+.submit {
   border-radius: 5px;
-  background-color:  yellow;
+  background-color: yellow;
 }
 
 .rectangulo6 {
- 
+
   text-align: center;
   background-color: black;
   width: 1200px;
@@ -326,31 +335,48 @@ right: 640px;
 }
 
 
-.cardscandi{
- 
+.cardscandi {
+
   top: 50px;
   left: 150px;
   position: relative;
   float: left;
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-padding: 0px;
-gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0px;
+  gap: 20px;
 }
 
-.cardsempleos{
+.cardsempleos {
   top: 130px;
   left: 150px;
   position: relative;
   float: left;
-display: grid;
-grid-template-columns: repeat(5, 1fr);
-padding: 0px;
-gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 0px;
+  gap: 30px;
 }
 
 
+.gmap{
+  float: right;
+  position: relative;
+  bottom: 40px;
+  right: 30px;
+}
 
+.gmaplogo{
+  position: relative;
+  bottom: 25px;
+  left: 1120px;
 
+}
 
-
+.derechos {
+  position: relative;
+  top: 30px;
+  font-weight: bold;
+  font-size: 25px;
+  left: 30px;
+}

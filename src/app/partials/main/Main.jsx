@@ -26,8 +26,7 @@ export const Main = () => {
     <div className="empleos">Con esta pagina web de la municipalidad de Bahía Blanca buscamos  que las personas que necesiten un trabajo puedan hacerlo mediante nosotros. Porque VOS importas, para conocer más apreta el siguiente botón
     
     </div>
-<button onClick={() => navegarAEmpleos()} className="boton">Empleos disponibles</button>
-    
+<button onClick={() => navegarAEmpleos()} className="boton">Empleos disponibles</button> 
   </>
   )
 }
