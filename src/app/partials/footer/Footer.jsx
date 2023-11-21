@@ -33,8 +33,8 @@ export const Footer = () => {
                 <img  className="gmaplogo"  src="./img/maps.png" alt="Ubicación" width="80px" height="100px" />
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199222.78568479937!2d-62.420835042935536!3d-38.721114354202676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95edbcabdc1302bd%3A0x76d1d88d241e7a11!2sBahía%20Blanca%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1700355297289!5m2!1ses-419!2sar" 
               className="gmap"
-                width="600" 
-                height="450" 
+                width="500" 
+                height="330" 
                 style={{border:"0"}} 
                 allowFullScreen="" 
                 loading="lazy" 

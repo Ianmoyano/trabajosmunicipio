@@ -38,7 +38,7 @@
   color: white;
   position: absolute;
   top: 1300px;
-  height: 845px;
+  height: 705px;
   opacity: 88%;
   border: solid;
   border-color: grey;
@@ -254,6 +254,7 @@
   gap: 50px;
   left: 20px;
   width: 1200px;
+  font-size: 26px;
 }
 
 .redinfo{
@@ -362,14 +363,14 @@
 .gmap{
   float: right;
   position: relative;
-  bottom: 40px;
+  bottom: 50px;
   right: 30px;
 }
 
 .gmaplogo{
   position: relative;
-  bottom: 25px;
-  left: 1120px;
+  bottom: 35px;
+  left: 1220px;
 
 }
 
@@ -383,4 +384,10 @@
 
 .cardfoto{
   max-height: 160px;
+}
+
+.enviarcv {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
 }
