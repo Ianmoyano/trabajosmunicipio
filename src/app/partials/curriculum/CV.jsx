@@ -4,6 +4,7 @@ import { useForm } from "react-hook-form";
 import { edadValidator } from "./validator.js";
 import Card from 'react-bootstrap/Card';
 import { Container } from "reactstrap";
+import datos from "../candidatosdisp.json";
 
 export const CV = () => {
   const { register, formState: { errors }, handleSubmit } = useForm();
@@ -14,97 +15,26 @@ export const CV = () => {
 
   return (<>
     <Container className="cardscandi">
-
-      <Card style={{ width: '30rem' }}>
-        <Card.Body>
-          <Card.Title>Marta García</Card.Title>
-          <Card.Subtitle className="mb-1 text-muted">Rubro: Ingeniera de software</Card.Subtitle>
-          <Card.Text>
-            <ul>
-            <li>Edad: 22 años.</li>
-            <li>Full time: si.</li>
-            <li>Movilidad: no.</li>
-            <li>Cualidades: Apasionada por la programación, creativa en la resolución de problemas, colaborativa en equipo y siempre dispuesta a aprender nuevas tecnologías.</li></ul>
-          </Card.Text>
-          <Card.Link href="#">Curriculum Vitae</Card.Link>
-        </Card.Body>
-      </Card>
-      <Card style={{ width: '30rem' }}>
-        <Card.Body>
-          <Card.Title>Carlos Rodriguez</Card.Title>
-          <Card.Subtitle className="mb-1 text-muted">Rubro: Chef de cocina.</Card.Subtitle>
-          <Card.Text>
-          <ul>
-            <li>Edad: 31 años.</li>
-            <li>Full time: no.</li>
-            <li>Movilidad: si.</li>
-            <li>Cualidades: Creativo en la creación de platos, apasionado por la gastronomía internacional, habilidades para la organización en la cocina.</li>
-            </ul>
-          </Card.Text>
-          <Card.Link href="#">Curriculum Vitae</Card.Link>
-        </Card.Body>
-      </Card>
-      <Card style={{ width: '30rem' }}>
-        <Card.Body>
-          <Card.Title>Laura Fernandez</Card.Title>
-          <Card.Subtitle className="mb-1 text-muted">Rubro: Psicóloga clínica</Card.Subtitle>
-          <Card.Text>
-          <ul>
-            <li>Edad: 37 años.</li>
-            <li>Full time: no.</li>
-            <li>Movilidad: si.</li>
-            <li>Cualidades: Empática y compasiva, habilidades excepcionales de escucha, comprometida con el bienestar emocional de sus pacientes.</li>
-            </ul>
-          </Card.Text>
-          <Card.Link href="#">Curriculum Vitae</Card.Link>
-        </Card.Body>
-      </Card>
-      <Card style={{ width: '30rem' }}>
-        <Card.Body>
-          <Card.Title>Alejandro Soto</Card.Title>
-          <Card.Subtitle className="mb-1 text-muted">Rubro: Fotografo de naturaleza</Card.Subtitle>
-          <Card.Text>
-          <ul>
-            <li>Edad: 19 años.</li>
-            <li>Full time: no.</li>
-            <li>Movilidad: si.</li>
-            <li>Cualidades: Apasionado por la conservación ambiental, paciencia para obtener la toma perfecta.</li>
-            </ul>
-          </Card.Text>
-          <Card.Link href="#">Curriculum Vitae</Card.Link>
-        </Card.Body>
-      </Card>
-      <Card style={{ width: '30rem' }}>
-        <Card.Body>
-          <Card.Title>Valentina López</Card.Title>
-          <Card.Subtitle className="mb-1 text-muted">Rubro: Periodista de investigación</Card.Subtitle>
-          <Card.Text>
-          <ul>
-            <li>Edad: 24 años.</li>
-            <li>Full time: si.</li>
-            <li>Movilidad: si.</li>
-            <li>Cualidades: Curiosa e inquisitiva, habilidades excepcionales para la investigación, ética periodística.</li>
-            </ul>
-          </Card.Text>
-          <Card.Link href="#">Curriculum Vitae</Card.Link>
-        </Card.Body>
-      </Card>
-      <Card style={{ width: '30rem' }}>
-        <Card.Body>
-          <Card.Title>Santiago Suarez</Card.Title>
-          <Card.Subtitle className="mb-1 text-muted">Rubro: Desarrollador de videojuegos</Card.Subtitle>
-          <Card.Text>
-          <ul>
-            <li>Edad: 26 años.</li>
-            <li>Full time: si.</li>
-            <li>Movilidad: no.</li>
-            <li>Cualidades: Creativo en el diseño de juegos, habilidades excepcionales en programación.</li>
-            </ul>
-          </Card.Text>
-          <Card.Link href="#">Curriculum Vitae</Card.Link>
-        </Card.Body>
-      </Card>
+      {datos.map((item) => (
+        <Card key={item.nombre} style={{ width: '30rem' }}>
+          <Card.Body>
+            <Card.Title>{item.nombre}</Card.Title>
+            <Card.Subtitle className="mb-1 text-muted">{item.rubro}</Card.Subtitle>
+            <Card.Text>
+              <div key={item.nombre}>
+                <ul>
+                  <li> Edad: {item.rubro}.</li>
+                  <li> Full time: {item.fullTime}.</li>
+                  <li> Movilidad: {item.movilidad}.</li>
+                  <li> Cualidades: {item.cualidades}.</li></ul>
+              </div>
+            </Card.Text>
+            <Card.Link href="#">Curriculum Vitae</Card.Link>
+          </Card.Body>
+        </Card>
+      ))}
     </Container>
+
 
     <div className="englobador">
       <div className="cv">Introduce tu CV aquí</div><br></br>

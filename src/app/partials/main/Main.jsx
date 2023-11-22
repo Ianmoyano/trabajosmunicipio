@@ -27,6 +27,9 @@ export const Main = () => {
     
     </div>
 <button onClick={() => navegarAEmpleos()} className="boton">Empleos disponibles</button> 
-  </>
+<div className="linea2"></div>
+<div className="MunicipiodeBahia">Municipio de Bahia</div>
+<div className="linea1"></div>9
+ </>
   )
 }

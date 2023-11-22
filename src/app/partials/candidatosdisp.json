@@ -1,0 +1,50 @@
+[
+    {
+      "nombre": "Marta García",
+      "rubro": "Ingeniera de software",
+      "edad": 22,
+      "fullTime": "Si",
+      "movilidad": "No",
+      "cualidades": "Apasionada por la programación, creativa en la resolución de problemas, colaborativa en equipo y siempre dispuesta a aprender nuevas tecnologías."
+    },
+    {
+      "nombre": "Carlos Rodriguez",
+      "rubro": "Chef de cocina",
+      "edad": 31,
+      "fullTime": "Si",
+      "movilidad": "No",
+      "cualidades": "Creativo en la creación de platos, apasionado por la gastronomía internacional, habilidades para la organización en la cocina."
+    },
+    {
+      "nombre": "Laura Fernandez",
+      "rubro": "Psicóloga clínica",
+      "edad": 37,
+      "fullTime": "Si",
+      "movilidad": "No",
+      "cualidades": "Empática y compasiva, habilidades excepcionales de escucha, comprometida con el bienestar emocional de sus pacientes."
+    },
+    {
+      "nombre": "Alejandro Soto",
+      "rubro": "Fotografo de naturaleza",
+      "edad": 19,
+      "fullTime": "Si",
+      "movilidad": "No",
+      "cualidades": "Apasionado por la conservación ambiental, paciencia para obtener la toma perfecta."
+    },
+    {
+      "nombre": "Valentina López",
+      "rubro": "Periodista de investigación",
+      "edad": 24,
+      "fullTime": "Si",
+      "movilidad": "No",
+      "cualidades": "Curiosa e inquisitiva, habilidades excepcionales para la investigación, ética periodística."
+    },
+    {
+      "nombre": "Santiago Suarez",
+      "rubro": "Desarrollador de videojuegos",
+      "edad": 26,
+      "fullTime": "Si",
+      "movilidad": "No",
+      "cualidades": "Creativo en el diseño de juegos, habilidades excepcionales en programación."
+    }
+  ]
