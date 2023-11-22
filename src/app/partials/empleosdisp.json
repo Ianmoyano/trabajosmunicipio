@@ -51,30 +51,30 @@
         "rubro": "Tecnología",
         "requisitos": "Conocimiento avanzado en JavaScript y React",
         "horario": 8,
-        "foto": "./img/programador.png"
+        "foto": "./img/programadorweb.jpeg"
       },
       {
         "trabajo": "Enfermero",
-        "empleador": "Laura Gómez",
-        "descripcion": "Enfermero/a en Gómez Clínica",
+        "empleador": "Hospital San Justo",
+        "descripcion": "Enfermero/a en el Hospital San Justo",
         "rubro": "Salud",
         "requisitos": "Licenciatura en Enfermería",
         "horario": 4,
-        "foto": "./img/enfermero.jpg"
+        "foto": "./img/enfermera.jpg"
       },
       {
         "trabajo": "Diseñador Gráfico",
-        "empleador": "Ana Martínez",
-        "descripcion": "Diseñador en Martínez Creaciones",
+        "empleador": "The Artist Page",
+        "descripcion": "Diseñador en The Artist Page",
         "rubro": "Diseño",
         "requisitos": "Experiencia en Adobe Creative Suite",
         "horario": 8,
-        "foto": "./img/disenador.jpg"
+        "foto": "./img/mujer-disenador-grafico-ordenador.jpg"
       },
       {
         "trabajo": "Chef",
-        "empleador": "Juan López",
-        "descripcion": "Chef en López Gastronomía",
+        "empleador": "Gold Restaurant",
+        "descripcion": "Chef profesional en Gold Restaurant",
         "rubro": "Gastronomía",
         "requisitos": "Cursos de cocina y experiencia en restaurantes",
         "horario": 4,
