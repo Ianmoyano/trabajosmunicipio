@@ -1,0 +1,92 @@
+[
+    {
+      "trabajo": "Obrero",
+      "empleador": "Operativa obrera",
+      "descripcion": "Operador de maquinas para mover arena",
+      "rubro": "Obra",
+      "requisitos": "Experiencia en operar maquinaria",
+      "horario": 8,
+      "foto": "./img/obrero.avif"
+    },
+    {
+      "trabajo": "Profesor",
+        "empleador": "Escuela San Cayetano",
+        "descripcion": "Profesor de Ciencia",
+        "rubro": "Educación",
+        "requisitos": "Titulo honorario de matemáticas",
+        "horario": 4,
+        "foto": "./img/profe.png"
+      },
+      {
+        "trabajo": "Electricista",
+        "empleador": "EDES",
+        "descripcion": "Trabajo disponible en empresa electrica EDES",
+        "rubro": "Obra",
+        "requisitos": "Titulo en electricista y escasa experiencia",
+        "horario": 4,
+        "foto": "./img/electricista.jpg"
+      },
+      {
+        "trabajo": "Peluquero",
+        "empleador": "Vintage peluqueria",
+        "descripcion": "Recepcionista en peluqueria vintage",
+        "rubro": "Servicio",
+        "requisitos": "Experiencia como recepcionista",
+        "horario": 8,
+        "foto": "./img/peluquero.jpg"
+      },
+      {
+        "trabajo": "Carpintero",
+        "empleador": "Aaron Gonzales",
+        "descripcion": "Ayudante en Aaron carpinteria",
+        "rubro": "Obra",
+        "requisitos": "Titulo técnico en carpinteria",
+        "horario": 4,
+        "foto": "./img/carpintero.webp"
+      },
+      {
+        "trabajo": "Programador",
+        "empleador": "Carlos Pérez",
+        "descripcion": "Desarrollador en Pérez Software",
+        "rubro": "Tecnología",
+        "requisitos": "Conocimiento avanzado en JavaScript y React",
+        "horario": 8,
+        "foto": "./img/programador.png"
+      },
+      {
+        "trabajo": "Enfermero",
+        "empleador": "Laura Gómez",
+        "descripcion": "Enfermero/a en Gómez Clínica",
+        "rubro": "Salud",
+        "requisitos": "Licenciatura en Enfermería",
+        "horario": 4,
+        "foto": "./img/enfermero.jpg"
+      },
+      {
+        "trabajo": "Diseñador Gráfico",
+        "empleador": "Ana Martínez",
+        "descripcion": "Diseñador en Martínez Creaciones",
+        "rubro": "Diseño",
+        "requisitos": "Experiencia en Adobe Creative Suite",
+        "horario": 8,
+        "foto": "./img/disenador.jpg"
+      },
+      {
+        "trabajo": "Chef",
+        "empleador": "Juan López",
+        "descripcion": "Chef en López Gastronomía",
+        "rubro": "Gastronomía",
+        "requisitos": "Cursos de cocina y experiencia en restaurantes",
+        "horario": 4,
+        "foto": "./img/chef.jpg"
+      },
+      {
+        "trabajo": "Plomero",
+        "empleador": "Martín Sánchez",
+        "descripcion": "Asistente en Sánchez Fontanería",
+        "rubro": "Construcción",
+        "requisitos": "Experiencia en instalaciones de fontanería",
+        "horario": 8,
+        "foto": "./img/plomero.jpg"
+      }
+    ]
