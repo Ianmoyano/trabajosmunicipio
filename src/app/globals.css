@@ -37,7 +37,7 @@
   background-image: linear-gradient(to top, rgb(0, 0, 0), rgb(26, 26, 26));
   color: white;
   position: absolute;
-  top: 1300px;
+  top: 1550px;
   height: 705px;
   opacity: 88%;
   border: solid;
@@ -293,12 +293,9 @@
 
 
 .englobador {
-
   float: right;
   background-color: rgb(189, 225, 225);
   position: relative;
-  top: 600px;
-  right: 684px;
   font-size: 20px;
   padding: 50px;
   border: solid;
@@ -306,16 +303,25 @@
   border-radius: 10px;
   font-family: sans-serif;
   box-sizing: content-box;
+  width: 800px;
+  height: 570px;
+  right: 450px;
+  top: 120px;
 }
+
 
 
 .cv {
   font-size: 35px;
-
+  position: relative;
+  bottom: 30px;
 }
 
 .errores {
   color: rgb(255, 0, 0);
+  position: relative;
+  bottom: 35px;
+  left: 260px;
   text-decoration: underline;
 }
 
@@ -331,7 +337,7 @@
   width: 1200px;
   height: 3px;
   position: relative;
-  top: 550px;
+  top: 600px;
   left: 360px;
 }
 
