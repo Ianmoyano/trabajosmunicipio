@@ -23,10 +23,11 @@ export const CV = () => {
             <Card.Text>
               <div key={item.nombre}>
                 <ul>
-                  <li> Edad: {item.rubro}.</li>
+                  <li> Edad: {item.edad}.</li>
                   <li> Full time: {item.fullTime}.</li>
                   <li> Movilidad: {item.movilidad}.</li>
-                  <li> Cualidades: {item.cualidades}.</li></ul>
+                  <li> Cualidades: {item.cualidades}.</li>
+                  </ul>
               </div>
             </Card.Text>
             <Card.Link href="#">Curriculum Vitae</Card.Link>
@@ -44,13 +45,11 @@ export const CV = () => {
           <input type="text" {...register('nombre', {
             required: true,
             minLength: 3,
-            maxLength: 15,
           })}
           />
-          <div className="errores">
-            {errors.nombre?.type === "required" && <p>El nombre es obligatorio</p>}
-            {errors.nombre?.type === "minLength" && <p>El nombre debe tener al menos 3 letras</p>}
-            {errors.apellido?.type === "maxLength" && <p>El nombre no debe superar las 15 letras</p>}
+          <div className="errores1">
+            {errors.nombre?.type === "required" && <p>El nombre es obligatorio.</p>}
+            {errors.nombre?.type === "minLength" && <p>El nombre debe tener al menos 3 letras.</p>}
           </div>
         </div>
         <div className="apellidos">
@@ -58,13 +57,12 @@ export const CV = () => {
           <input type="text" {...register('apellido', {
             required: true,
             minLength: 3,
-            maxLength: 15,
+           
           })}
           />
-          <div className="errores">
-            {errors.apellido?.type === "required" && <p>El apellido es obligatorio</p>}
-            {errors.apellido?.type === "minLength" && <p>El apellido debe tener al menos 3 letras</p>}
-            {errors.apellido?.type === "maxLength" && <p>El apellido no debe superar las 15 letras</p>}
+          <div className="errores2">
+            {errors.apellido?.type === "required" && <p>El apellido es obligatorio.</p>}
+            {errors.apellido?.type === "minLength" && <p>El apellido debe tener al menos 3 letras.</p>}
           </div>
         </div>
         <div className="edad">
@@ -74,9 +72,9 @@ export const CV = () => {
             maxLength: 2,
             validate: edadValidator
           })} />
-          <div className="errores">
-            {errors.edad?.type === "required" && <p>La edad es obligatoria</p>}
-            {errors.edad && <p>La edad debe estar entre 18 y 65</p>}
+          <div className="errores3">
+            {errors.edad?.type === "required" && <p>La edad es obligatoria.</p>}
+            {errors.edad?.type === "validate" && <p>La edad tiene que ser entre 18 y 65 años.</p>}
           </div>
         </div>
         <div className="Habilidades">
@@ -84,11 +82,9 @@ export const CV = () => {
           <input type="text" {...register('habilidades', {
             required: true,
             mixLength: 20,
-
           })} />
-          <div className="errores">
-            {errors.habilidades?.type === "required" && <p>Las habilidades son obligatorias letras</p>}
-            {errors.habilidades && <p>Este campo tiene que tener como minimo 20</p>}
+          <div className="errores4">
+            {errors.habilidades?.type === "required" && <p>Las habilidades son obligatorias. </p>}
           </div>
         </div>
         <div className="mail">
@@ -97,9 +93,9 @@ export const CV = () => {
             pattern: /^[^\s@]+@[^\s@]+\.[^\s@]+$/i,
             required: true
           })} />
-          <div className="errores">
-            {errors.mail?.type === "required" && <p>El mail es obligatorio</p>}
-            {errors.mail?.type === "pattern" && <p>El formato del mail es erróneo</p>}
+          <div className="errores5">
+            {errors.mail?.type === "required" && <p>El mail es obligatorio.</p>}
+            {errors.mail?.type === "pattern" && <p>El formato del mail es erróneo.</p>}
           </div>
         </div>
         <div className="fulltime">
