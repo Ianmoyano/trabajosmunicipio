@@ -123,26 +123,27 @@
 
 .linea1{
   background-color: black;
-  height: 1px;
+  height: 3px;
   width: 550px;
-  top: 820px;
-  position: relative;
-  left: 1350px;
+  top: 1424px;
+  position: absolute;
+  left: 1275px;
 }
 
 .linea2{
   background-color: black;
-  height: 2px;
+  height: 3px;
   width: 550px;
-  top: 799px;
-  position: relative;
+  top: 1427px;
+  position: absolute;
+  left: 40px;
 }
 
 .MunicipiodeBahia{
-  position: relative;
-  top: 810px;
-  left: 800px;
-  font-size: 30px;
+  position: absolute;
+  top: 1400px;
+  left: 750px;
+  font-size: 40px;
 }
 
 .mun {
