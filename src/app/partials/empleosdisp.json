@@ -9,7 +9,7 @@
       "foto": "./img/obrero.avif"
     },
     {
-      "trabajo": "Profesor",
+        "trabajo": "Profesor",
         "empleador": "Escuela San Cayetano",
         "descripcion": "Profesor de Ciencia",
         "rubro": "Educación",

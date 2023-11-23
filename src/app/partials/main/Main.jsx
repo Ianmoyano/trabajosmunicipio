@@ -8,12 +8,12 @@ export const Main = () => {
     router.push("empleos")
   }
   return (<>
-  <div className="infociudad"> <div className="rectangulo2"></div>Bahía Blanca es una ciudad que se fundo en 1828.
+  <div className="infociudad"> <div className="rectangulo2"></div>La ciudad de Bahía Blanca se fundo en 1828.
       <br></br><div className="rectangulo2"></div>Coronel Ramón Bernabé Estomba fue el fundador de la ciudad de Bahía Blanca
-      <br></br><div className="rectangulo2"></div>Actualmente tiene una cantidad de 335.190 habitantes.
+      <br></br><div className="rectangulo2"></div>Actualmente la ciudad tiene una cantidad de 335.190 habitantes.
       <br></br><div className="rectangulo2"></div>Está ubicada en el sudoeste de la provincia de Buenos Aires, en el centro-este de la Argentina
       <br></br><div className="rectangulo2"></div>La denominación de la localidad refiere a la profunda y angosta entrada de mar
-      en el continente<br></br>ㅤy a laseflorescencias salinas blancas que cubren las zonas bajasen regiones costeras
+      en el continente y a las<br></br> florescencias salinas blancas que cubren las zonas bajasen regiones costeras
    </div>
 
   

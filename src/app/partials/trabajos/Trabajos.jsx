@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { useRouter } from "next/navigation"
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
@@ -20,11 +20,10 @@ export const Trabajos = () => {
 
             <Container className="cardsempleos">
                 {datos.map((item) => (
-                    <Card key={item.trabajo} style={{ width: '19rem', height: '34rem'}}>
-                        <Card.Img className="cardfoto" variant="top" src={item.foto}/>
+                    <Card key={item.trabajo} style={{ width: '19rem', height: '34rem' }}>
+                        <Card.Img className="cardfoto" variant="top" src={item.foto} />
                         <Card.Body>
                             <Card.Title>{item.trabajo}</Card.Title>
-                            <Card.Text>
                                 <div key={item.trabajo}>
                                     <p>_ 𝙀𝙢𝙥𝙡𝙚𝙖𝙙𝙤𝙧: {item.empleador}</p>
                                     <p>_ 𝘿𝙚𝙨𝙘𝙧𝙞𝙥𝙘𝙞𝙤́𝙣: {item.descripcion}</p>
@@ -32,7 +31,6 @@ export const Trabajos = () => {
                                     <p>_ 𝙍𝙚𝙦𝙪𝙞𝙨𝙞𝙩𝙤𝙨: {item.requisitos}</p>
                                     <p>_ 𝙃𝙤𝙧𝙖𝙧𝙞𝙤: {item.horario} , horas diarias</p>
                                 </div>
-                            </Card.Text>
                             <Button className="enviarcv" onClick={() => navegarACandidatos()} variant="primary">Enviar cv</Button>
                         </Card.Body>
                     </Card>
@@ -42,4 +40,3 @@ export const Trabajos = () => {
     );
 };
 
-export default Trabajos;

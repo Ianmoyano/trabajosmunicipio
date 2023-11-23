@@ -25,7 +25,7 @@ export const Footer = () => {
                     </div>
 
                     <div>
-                        <img src="./img/insta.png" alt="Instagram" width="100px" height="100px" />
+                        <img src="./img/insta.webp" alt="Instagram" width="100px" height="100px" />
                         <div className="redinfo">@municipiobahia</div>
                     </div>
                 </div>                

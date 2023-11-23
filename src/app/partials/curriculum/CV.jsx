@@ -20,7 +20,6 @@ export const CV = () => {
           <Card.Body>
             <Card.Title>{item.nombre}</Card.Title>
             <Card.Subtitle className="mb-1 text-muted">{item.rubro}</Card.Subtitle>
-            <Card.Text>
               <div key={item.nombre}>
                 <ul>
                   <li> Edad: {item.edad}.</li>
@@ -29,7 +28,6 @@ export const CV = () => {
                   <li> Cualidades: {item.cualidades}.</li>
                   </ul>
               </div>
-            </Card.Text>
             <Card.Link href="#">Curriculum Vitae</Card.Link>
           </Card.Body>
         </Card>
