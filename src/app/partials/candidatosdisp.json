@@ -4,7 +4,7 @@
       "rubro": "Ingeniera de software",
       "edad": 22,
       "fullTime": "Si",
-      "movilidad": "No",
+      "movilidad": "Si",
       "cualidades": "Apasionada por la programación, creativa en la resolución de problemas, colaborativa en equipo y siempre dispuesta a aprender nuevas tecnologías."
     },
     {
@@ -19,8 +19,8 @@
       "nombre": "Laura Fernandez",
       "rubro": "Psicóloga clínica",
       "edad": 37,
-      "fullTime": "Si",
-      "movilidad": "No",
+      "fullTime": "No",
+      "movilidad": "Si",
       "cualidades": "Empática y compasiva, habilidades excepcionales de escucha, comprometida con el bienestar emocional de sus pacientes."
     },
     {
@@ -35,7 +35,7 @@
       "nombre": "Valentina López",
       "rubro": "Periodista de investigación",
       "edad": 24,
-      "fullTime": "Si",
+      "fullTime": "No",
       "movilidad": "No",
       "cualidades": "Curiosa e inquisitiva, habilidades excepcionales para la investigación, ética periodística."
     },
@@ -43,7 +43,7 @@
       "nombre": "Santiago Suarez",
       "rubro": "Desarrollador de videojuegos",
       "edad": 26,
-      "fullTime": "Si",
+      "fullTime": "No",
       "movilidad": "No",
       "cualidades": "Creativo en el diseño de juegos, habilidades excepcionales en programación."
     }

@@ -1,6 +1,14 @@
 .body {
   min-height: 100%;
 }
+/*Componente titulo */
+.escudo {
+  position: absolute;
+  width: 60px;
+  height: 103px;
+  top: 3px;
+  right: 535px;
+}
 
 .Titulo {
   height: 110px;
@@ -21,15 +29,15 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-decoration: underline;
   color: rgb(65, 65, 65);
-}
+} 
 
-.infociudad {
-  font-size: 26px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  position: relative;
-  top: 30px;
-  left: 50px;
-}
+.botonroute {
+  background-color: lightblue;
+  width: 620px;
+  height: 35px;
+}  
+
+/*Componente Footer */
 
 .Footer {
   background-image: linear-gradient(to top, rgb(0, 0, 0), rgb(26, 26, 26));
@@ -42,18 +50,100 @@
   border-color: grey;
   width: 1862px;
   font-size: 25px;
+} 
+
+.derechos {
+  position: relative;
+  top: 30px;
+  font-weight: bold;
+  font-size: 25px;
+  left: 30px;
+} 
+
+.bandera {
+  position: relative;
+  float: right;
+  height: 250px;
+  width: 500px;
+  bottom: 55px;
+  right: 30px;
+} 
+
+.redes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  position: relative;
+  top: 300px;
+  gap: 50px;
+  left: 20px;
+  width: 1200px;
+  font-size: 26px;
 }
 
-.boton {
+.redinfo{
   position: relative;
-  background-image: linear-gradient(to right, lightblue, yellow);
-  ;
-  height: 80px;
-  width: 350px;
-  left: 1386px;
-  top: 640px;
-  font-size: 23px;
+  bottom: 60px;
+  left: 120px;
+}  
 
+
+.gmap{
+  float: right;
+  position: relative;
+  bottom: 50px;
+  right: 30px;
+}
+
+.gmaplogo{
+  position: relative;
+  bottom: 35px;
+  left: 1220px;
+} 
+
+
+
+/*Componente Main */
+
+.infociudad {
+  font-size: 26px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  position: relative;
+  top: 30px;
+  left: 50px;
+} 
+
+.rectangulo2 {
+  background-color: black;
+  width: 5px;
+  height: 20px;
+  position: relative;
+  top: 32px;
+  left: -15px;
+} 
+
+.imagen1 {
+  position: absolute;
+  height: 370px;
+  width: 390px;
+  top: 160px;
+  left: 1390px;
+  border-radius: 5px;
+  border: solid;
+  border-color: black;
+  border-style: double;
+}
+
+.imagen2 {
+  position: absolute;
+  top: 600px;
+  text-align: start;
+  left: 35px;
+  border-radius: 5px;
+  border: solid;
+  border-color: black;
+  width: 1200px;
+  height: 700px;
+  border-width: 2px;
 }
 
 .empleos {
@@ -74,49 +164,14 @@
   padding: 30px;
 }
 
-.imagen1 {
-  position: absolute;
-  height: 370px;
-  width: 390px;
-  top: 160px;
-  left: 1390px;
-  border-radius: 5px;
-  border: solid;
-  border-color: black;
-  border-style: double;
-}
-
-.imagen2 {
-  position: absolute;
-  top: 600px;
-  text-align: start;
-  left: 35px;
-
-  border-radius: 5px;
-  border: solid;
-  border-color: black;
-  width: 1200px;
-  height: 700px;
-  border-width: 2px;
-
-}
-
-.rectangulo {
-  background-color: black;
-  width: 1830px;
-  height: 3px;
+.boton {
   position: relative;
-  top: 45px;
-  left: 15px;
-}
-
-.rectangulo2 {
-  background-color: black;
-  width: 5px;
-  height: 20px;
-  position: relative;
-  top: 32px;
-  left: -15px;
+  background-image: linear-gradient(to right, lightblue, yellow);
+  height: 80px;
+  width: 350px;
+  left: 1386px;
+  top: 640px;
+  font-size: 23px;
 }
 
 .linea1{
@@ -144,70 +199,7 @@
   font-size: 40px;
 }
 
-.mun {
-  position: relative;
-  text-align: center;
-  left: 15px;
-  bottom: 900px;
-  font-size: 25px;
-}
-
-.trabajos {
-  text-align: center;
-  width: 851px;
-  height: 280px;
-  background-color: lightblue;
-  position: relative;
-  left: 50px;
-  font-size: 35px;
-  border: solid;
-  border-color: rgb(83, 83, 83);
-  border-radius: 1%;
-}
-
-.trabajos-container2 {
-  position: relative;
-  bottom: 851px;
-  right: 100px;
-  float: right;
-}
-
-.trabajos-container1 {
-  position: relative;
-  top: 37px;
-}
-
-.datos {
-  text-align: left;
-  position: relative;
-  left: 10px;
-  font-size: 15px;
-  bottom: 10px;
-}
-
-.imgtrabajos {
-  position: absolute;
-  bottom: 60px;
-  left: 550px;
-  height: 200px;
-  width: 270px;
-  border: solid;
-  border-color: black;
-}
-
-.botoncv {
-  position: absolute;
-
-
-
-  width: 200px;
-  height: 53px;
-  border-radius: 5px;
-  border-color: black;
-  border: solid;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  background-color: rgb(206, 238, 255);
-}
+/*Componente Trabajos */
 
 .subtitulotrabajos {
   position: relative;
@@ -221,7 +213,7 @@
   position: relative;
   float: right;
   right: 50px;
-  top: 1200px;
+  top: 1250px;
   height: 80px;
   width: 400px;
   border: solid;
@@ -231,154 +223,56 @@
   font-size: 24px;
   background-image: linear-gradient(to right, lightblue, yellow);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+} 
 
-
-.bandera {
+.filtrartrabajos{
   position: relative;
-  float: right;
-  height: 250px;
-  width: 500px;
-  bottom: 55px;
-  right: 30px;
-}
+  left: 1400px;
+  padding: 8px;
+  font-size: 17px;
+  border: 1px solid #ccc;
+  background-color: #b3b3b3ee;
+  width: 350px;
+  display: flex;
+  gap: 25px;
+} 
 
-.redes {
+.cardsempleos {
+  top: 30px;
+  left: 100px;
+  position: relative;
+  float: left;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  position: relative;
-  top: 300px;
-  gap: 50px;
-  left: 20px;
-  width: 1200px;
-  font-size: 26px;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 0px;
+  gap: 30px;
 }
 
-.redinfo{
-  position: relative;
-  bottom: 60px;
-  left: 120px;
-}
+.cardfoto{
+  max-height: 170px;
+} 
 
-
-
-
-.escudo {
+.enviarcv {
   position: absolute;
-  width: 60px;
-  height: 103px;
-  top: 3px;
-  right: 535px;
+  bottom: 10px;
+  left: 10px;
 }
 
-
-.filtrar {
-  background-image: linear-gradient(to right, lightblue, yellow);
-  float: right;
+/*Componente CV */
+.filtrarcandidatos{
   position: relative;
-  bottom: 30px;
-  right: 100px;
-  width: 250px;
-  height: 40px;
-}
-
-.botonroute {
-  background-color: lightblue;
-  width: 620px;
-  height: 35px;
-}
-
-
-.englobador {
-  float: right;
-  background-color: rgb(189, 225, 225);
-  position: relative;
-  font-size: 20px;
-  padding: 50px;
-  border: solid;
-  border-color: black;
-  border-radius: 10px;
-  font-family: sans-serif;
-  box-sizing: content-box;
-  width: 800px;
-  height: 570px;
-  right: 450px;
-  top: 120px;
-}
-
-
-
-.cv {
-  font-size: 35px;
-  position: relative;
-  bottom: 30px;
-}
-
-.errores1 {
-  color: rgb(255, 0, 0);
-  hyphens: auto;
-  position: absolute;
-  left: 340px;
-  top:170px;
-  text-decoration: underline;
-}
-
-.errores2 {
-  color: rgb(255, 0, 0);
-  hyphens: auto;
-  position: absolute;
-  left: 340px;
-  top:235px;
-  text-decoration: underline;
-}
-
-.errores3 {
-  color: rgb(255, 0, 0);
-  hyphens: auto;
-  position: absolute;
-  left: 340px;
-  top:300px;
-  text-decoration: underline;
-}
-
-.errores4 {
-  color: rgb(255, 0, 0);
-  hyphens: auto;
-  position: absolute;
-  left: 340px;
-  top:365px;
-  text-decoration: underline;
-}
-
-.errores5 {
-  color: rgb(255, 0, 0);
-  hyphens: auto;
-  position: absolute;
-  left: 340px;
-  top:430px;
-  text-decoration: underline;
-}
-
-
-.submit {
-  border-radius: 5px;
-  background-color: yellow;
-}
-
-.rectangulo6 {
-
-  text-align: center;
-  background-color: black;
-  width: 1200px;
-  height: 3px;
-  position: relative;
-  top: 600px;
-  left: 360px;
-}
+  left: 750px;
+  padding: 8px;
+  font-size: 17px;
+  border: 1px solid #ccc;
+  background-color: #b3b3b3ee;
+  width: 400px;
+  display: flex;
+  gap: 25px;
+} 
 
 
 .cardscandi {
-
   top: 50px;
   left: 150px;
   position: relative;
@@ -389,46 +283,54 @@
   gap: 20px;
 }
 
-.cardsempleos {
-  top: 50px;
-  left: 100px;
-  position: relative;
-  float: left;
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  padding: 0px;
-  gap: 30px;
-}
-
-
-.gmap{
+.englobador {
   float: right;
-  position: relative;
-  bottom: 50px;
-  right: 30px;
-}
-
-.gmaplogo{
-  position: relative;
-  bottom: 35px;
-  left: 1220px;
-
-}
-
-.derechos {
-  position: relative;
-  top: 30px;
-  font-weight: bold;
-  font-size: 25px;
-  left: 30px;
-}
-
-.cardfoto{
-  max-height: 170px;
-}
-
-.enviarcv {
+  background-color: rgb(189, 225, 225);
   position: absolute;
-  bottom: 10px;
-  left: 10px;
+  font-size: 20px;
+  padding: 50px;
+  border: solid;
+  border-color: black;
+  border-radius: 10px;
+  font-family: sans-serif;
+  box-sizing: content-box;
+  width: 800px;
+  height: 570px;
+  right: 450px;
+  top: 830px;
+}
+
+.cv {
+  font-size: 35px;
+  position: relative;
+  bottom: 30px;
+}
+
+.submit {
+  border-radius: 5px;
+  background-color: yellow;
+}
+
+.rectangulo {
+  text-align: center;
+  background-color: black;
+  width: 1200px;
+  height: 3px;
+  position: relative;
+  top: 615px;
+  left: 360px;
+}
+
+.labels{
+  position: relative;
+  bottom: 30px;
+}
+
+.errores {
+  color: rgb(255, 0, 0);
+  hyphens: auto;
+  position: absolute;
+  left: 340px;
+  top:170px;
+  text-decoration: underline;
 }

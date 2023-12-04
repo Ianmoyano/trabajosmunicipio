@@ -12,7 +12,7 @@
         "trabajo": "Profesor",
         "empleador": "Escuela San Cayetano",
         "descripcion": "Profesor de Ciencia",
-        "rubro": "Educación",
+        "rubro": "Servicio",
         "requisitos": "Titulo honorario de matemáticas",
         "horario": 4,
         "foto": "./img/profe.png"
@@ -48,7 +48,7 @@
         "trabajo": "Programador",
         "empleador": "Carlos Pérez",
         "descripcion": "Desarrollador en Pérez Software",
-        "rubro": "Tecnología",
+        "rubro": "Servicio",
         "requisitos": "Conocimiento avanzado en JavaScript y React",
         "horario": 8,
         "foto": "./img/programadorweb.jpeg"
@@ -57,7 +57,7 @@
         "trabajo": "Enfermero",
         "empleador": "Hospital San Justo",
         "descripcion": "Enfermero/a en el Hospital San Justo",
-        "rubro": "Salud",
+        "rubro": "Servicio",
         "requisitos": "Licenciatura en Enfermería",
         "horario": 4,
         "foto": "./img/enfermera.jpg"
@@ -66,7 +66,7 @@
         "trabajo": "Diseñador Gráfico",
         "empleador": "The Artist Page",
         "descripcion": "Diseñador en The Artist Page",
-        "rubro": "Diseño",
+        "rubro": "Servicio",
         "requisitos": "Experiencia en Adobe Creative Suite",
         "horario": 8,
         "foto": "./img/mujer-disenador-grafico-ordenador.jpg"
@@ -75,7 +75,7 @@
         "trabajo": "Chef",
         "empleador": "Gold Restaurant",
         "descripcion": "Chef profesional en Gold Restaurant",
-        "rubro": "Gastronomía",
+        "rubro": "Servicio",
         "requisitos": "Cursos de cocina y experiencia en restaurantes",
         "horario": 4,
         "foto": "./img/chef.jpg"
@@ -84,7 +84,7 @@
         "trabajo": "Plomero",
         "empleador": "Martín Sánchez",
         "descripcion": "Asistente en Sánchez Fontanería",
-        "rubro": "Construcción",
+        "rubro": "Obra",
         "requisitos": "Experiencia en instalaciones de fontanería",
         "horario": 8,
         "foto": "./img/plomero.jpg"
