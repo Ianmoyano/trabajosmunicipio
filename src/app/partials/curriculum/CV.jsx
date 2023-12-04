@@ -9,7 +9,9 @@ import datos from "../candidatosdisp.json";
 export const CV = () => {
   const { register, formState: { errors }, handleSubmit } = useForm();
   const [fulltimeSeleccionadas, SetFulltimeSeleccionadas] = useState(''); 
-  const [movilidadSeleccionadas, SetMovilidadSeleccionadas] = useState(''); 
+  const [movilidadSeleccionada, SetMovilidadSeleccionada] = useState(''); 
+  const [nombreSeleccionado, SetNombreSeleccionado] = useState('');
+  const [edadSeleccionada, SetEdadSeleccionada] = useState('');
 
   const onSubmit = (data) => {
     console.log(data);
@@ -18,27 +20,50 @@ export const CV = () => {
     SetFulltimeSeleccionadas(event.target.value);
     
   };
-
   const handleMovilidadChange = (event) => {
-    SetMovilidadSeleccionadas(event.target.value);
+    SetMovilidadSeleccionada(event.target.value);
   };
+  const handleNombreChange =(event) => {
+    SetNombreSeleccionado(event.target.value);
+  }
+  const handleEdadChange = (event) => {
+    SetEdadSeleccionada (event.target.value);
+  }
+
   const candidatosFiltrados = datos.filter((item) => {
     const filtroFulltime = !fulltimeSeleccionadas || item.fullTime === fulltimeSeleccionadas;
-    const filtroMovilidad = !movilidadSeleccionadas || item.movilidad === movilidadSeleccionadas;
-    return filtroFulltime && filtroMovilidad;
+
+    const filtroMovilidad = !movilidadSeleccionada || item.movilidad === movilidadSeleccionada;
+
+    const filtroNombre = !nombreSeleccionado || item.nombre.toLowerCase().includes(nombreSeleccionado.toLowerCase());
+
+    const filtroEdad = 
+    !edadSeleccionada ||
+     (edadSeleccionada === "18-29" && parseInt(item.edad)>=18 && parseInt(item.edad)<=29) ||
+     (edadSeleccionada === "30-49" && parseInt(item.edad)>=30 && parseInt(item.edad)<=49) ||
+     (edadSeleccionada === "50+" && parseInt(item.edad)>=50);
+
+    return filtroFulltime && filtroMovilidad && filtroNombre && filtroEdad;
   });
 
   return (<>
       <div className="filtrarcandidatos">
+        <input value={nombreSeleccionado} onChange={handleNombreChange} placeholder="Buscar por nombre..."></input>
         <select value={fulltimeSeleccionadas} onChange={handleFulltimeChange}>
           <option value="">Filtrar por fulltime</option>
           <option>Si</option>
           <option>No</option>
         </select>
-        <select value={movilidadSeleccionadas} onChange={handleMovilidadChange}>
+        <select value={movilidadSeleccionada} onChange={handleMovilidadChange}>
           <option value="">Filtrar por movilidad</option>
           <option>Si</option>
           <option>No</option>
+        </select>
+        <select value={edadSeleccionada} onChange={handleEdadChange}>
+          <option value="">Filtrar por edad</option>
+          <option>18-29</option>
+          <option>30-49</option>
+          <option>50+</option>
         </select>
       </div>
 
