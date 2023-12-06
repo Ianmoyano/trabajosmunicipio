@@ -300,9 +300,9 @@
   border-radius: 10px;
   font-family: sans-serif;
   box-sizing: content-box;
-  width: 800px;
+  width: 630px;
   height: 570px;
-  right: 450px;
+  right: 530px;
   top: 830px;
 }
 
@@ -332,11 +332,42 @@
   bottom: 30px;
 }
 
-.errores {
+.error1 {
   color: rgb(255, 0, 0);
-  hyphens: auto;
   position: absolute;
-  left: 340px;
-  top:170px;
+  left: 290px;
+  top: 33px;
+  text-decoration: underline;
+}
+
+.error2 {
+  color: rgb(255, 0, 0);
+  position: absolute;
+  left: 290px;
+  top: 100px;
+  text-decoration: underline;
+}
+
+.error3 {
+  color: rgb(255, 0, 0);
+  position: absolute;
+  left: 290px;
+  top: 165px;
+  text-decoration: underline;
+}
+
+.error4 {
+  color: rgb(255, 0, 0);
+  position: absolute;
+  left: 290px;
+  top: 230px;
+  text-decoration: underline;
+}
+
+.error5 {
+  color: rgb(255, 0, 0);
+  position: absolute;
+  left: 290px;
+  top: 297px;
   text-decoration: underline;
 }
