@@ -17,7 +17,7 @@ export const Titulo = () => {
   return (
     <>
       <img className="escudo" src="./img/bahiaescudo.png" ></img>
-      <div className="Titulo"></div><div className="titulo2">Municipalidad de Bahía Blanca</div>
+      <div className="titulo">Municipalidad de Bahía Blanca</div>
       <button onClick={() => navegarAHome()} className="botonroute">Home</button>
       <button onClick={() => navegarAEmpleos()} className="botonroute">Empleos disponibles</button>
       <button onClick={() => navegarACandidatos()} className="botonroute">Personas en busca de trabajo</button>

@@ -1,6 +1,6 @@
 "use client"
 import { Main } from "../../partials/main/Main"
-import { Titulo } from "../../partials/titulo/titulo"
+import { Titulo } from "../../partials/titulo/Titulo"
 import { Footer } from "../../partials/footer/Footer"
 
 

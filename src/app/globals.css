@@ -4,32 +4,26 @@
 /*Componente titulo */
 .escudo {
   position: absolute;
-  width: 60px;
-  height: 103px;
+  width: 58px;
+  height: 97px;
   top: 3px;
-  right: 535px;
+  right: 600px;
 }
 
-.Titulo {
+.titulo {
   height: 110px;
   width: 1862px;
   background-image: linear-gradient(to right, lightblue, yellow);
-  font-size: 30px;
-  top: -5%;
-  left: 0%;
+  
   border-color: black;
+  font-size: 35px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+text-align: center;
+justify-content: center;
+text-decoration: underline;
+color: rgb(65, 65, 65);
+padding-top: 30px;
 }
-
-.titulo2 {
-  font-size: 45px;
-  top: 3%;
-  left: 35%;
-  position: absolute;
-  text-align: center;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  text-decoration: underline;
-  color: rgb(65, 65, 65);
-} 
 
 .botonroute {
   background-color: lightblue;

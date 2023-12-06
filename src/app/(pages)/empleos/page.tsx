@@ -1,5 +1,5 @@
 "use client"
-import { Titulo } from "../../partials/titulo/titulo"
+import { Titulo } from "../../partials/titulo/Titulo"
 import { Trabajos } from "../../partials/trabajos/Trabajos"
 import { Footer} from "../../partials/footer/Footer"
 

@@ -13,8 +13,9 @@ export const CV = () => {
   const [nombreSeleccionado, SetNombreSeleccionado] = useState('');
   const [edadSeleccionada, SetEdadSeleccionada] = useState('');
 
-  const onSubmit = (data) => {
+  const onSubmit = (data  ) => {
     console.log(data);
+  
   };
   const handleFulltimeChange = (event) => {
     SetFulltimeSeleccionadas(event.target.value);
@@ -125,6 +126,7 @@ export const CV = () => {
           <div className="error3">
             {errors.edad?.type === "required" && <p>La edad es obligatoria.</p>}
             {errors.edad?.type === "validate" && <p>La edad tiene que ser entre 18 y 65 años.</p>}
+            {errors.edad?.type === "maxLength" && <p>La edad debe ser de 2 digitos.</p>}
           </div>
         </div>
         <div className="">
