@@ -82,7 +82,7 @@ export const CV = () => {
                   <li> Cualidades: {item.cualidades}.</li>
                   </ul>
               </div>
-            <Card.Link href="https://ar.linkedin.com">Curriculum Vitae</Card.Link>
+            <Card.Link href="https://ar.linkedin.com">LinkedIn</Card.Link>
           </Card.Body>
         </Card>
       ))}

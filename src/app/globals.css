@@ -1,6 +1,7 @@
 .body {
   min-height: 100%;
 }
+
 /*Componente titulo */
 .escudo {
   position: absolute;
@@ -14,22 +15,21 @@
   height: 110px;
   width: 1862px;
   background-image: linear-gradient(to right, lightblue, yellow);
-  
   border-color: black;
   font-size: 35px;
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-text-align: center;
-justify-content: center;
-text-decoration: underline;
-color: rgb(65, 65, 65);
-padding-top: 30px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  justify-content: center;
+  text-decoration: underline;
+  color: rgb(65, 65, 65);
+  padding-top: 30px;
 }
 
 .botonroute {
   background-color: lightblue;
   width: 620px;
   height: 35px;
-}  
+}
 
 /*Componente Footer */
 
@@ -44,7 +44,7 @@ padding-top: 30px;
   border-color: grey;
   width: 1862px;
   font-size: 25px;
-} 
+}
 
 .derechos {
   position: relative;
@@ -52,7 +52,7 @@ padding-top: 30px;
   font-weight: bold;
   font-size: 25px;
   left: 30px;
-} 
+}
 
 .bandera {
   position: relative;
@@ -61,7 +61,7 @@ padding-top: 30px;
   width: 500px;
   bottom: 55px;
   right: 30px;
-} 
+}
 
 .redes {
   display: grid;
@@ -74,32 +74,32 @@ padding-top: 30px;
   font-size: 26px;
 }
 
-.redinfo{
+.redinfo {
   position: relative;
   bottom: 60px;
   left: 120px;
-}  
+}
 
 
-.gmap{
+.gmap {
   float: right;
   position: relative;
   bottom: 50px;
   right: 30px;
 }
 
-.gmaplogo{
+.gmaplogo {
   position: relative;
   bottom: 35px;
   left: 1220px;
-} 
+}
 
 
 
 /*Componente Main */
 
-.subtitulo{
-  position:relative;
+.subtitulo {
+  position: relative;
   left: 40px;
   top: 25px;
   text-decoration: underline;
@@ -112,12 +112,12 @@ padding-top: 30px;
   top: 50px;
   left: 35px;
   width: 1200px;
-  background-color: rgb(193, 193, 218);
+  background-color: rgb(221, 240, 255);
   border: solid;
   border-color: black;
   border-radius: 10px;
   padding: 20px;
-} 
+}
 
 .imagen1 {
   position: absolute;
@@ -172,7 +172,7 @@ padding-top: 30px;
   font-size: 23px;
 }
 
-.linea1{
+.linea1 {
   background-color: black;
   height: 3px;
   width: 550px;
@@ -181,7 +181,7 @@ padding-top: 30px;
   left: 1275px;
 }
 
-.linea2{
+.linea2 {
   background-color: black;
   height: 3px;
   width: 550px;
@@ -190,7 +190,7 @@ padding-top: 30px;
   left: 40px;
 }
 
-.MunicipiodeBahia{
+.MunicipiodeBahia {
   position: absolute;
   top: 1400px;
   left: 750px;
@@ -221,9 +221,9 @@ padding-top: 30px;
   font-size: 24px;
   background-image: linear-gradient(to right, lightblue, yellow);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-} 
+}
 
-.filtrartrabajos{
+.filtrartrabajos {
   position: relative;
   left: 1400px;
   padding: 8px;
@@ -233,7 +233,7 @@ padding-top: 30px;
   width: 350px;
   display: flex;
   gap: 25px;
-} 
+}
 
 .cardsempleos {
   top: 30px;
@@ -246,9 +246,9 @@ padding-top: 30px;
   gap: 30px;
 }
 
-.cardfoto{
+.cardfoto {
   max-height: 170px;
-} 
+}
 
 .enviarcv {
   position: absolute;
@@ -258,7 +258,7 @@ padding-top: 30px;
 
 /*Componente CV */
 
-.filtrarcandidatos{
+.filtrarcandidatos {
   position: relative;
   left: 500px;
   top: 20px;
@@ -269,7 +269,7 @@ padding-top: 30px;
   width: 830px;
   display: flex;
   gap: 25px;
-} 
+}
 
 
 .cardscandi {
@@ -321,7 +321,7 @@ padding-top: 30px;
   left: 360px;
 }
 
-.labels{
+.labels {
   position: relative;
   bottom: 30px;
 }
