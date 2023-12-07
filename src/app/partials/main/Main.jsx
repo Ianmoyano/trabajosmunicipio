@@ -25,23 +25,21 @@ export const Main = () => {
         <img src="./img/catedral.jpg" text="Second slide" className="fotoss"  />
         <Carousel.Caption  className="textocarousel" >
           <h3  className="textocarousel">Catedral de Bahía Blanca</h3>
-          <p  className="textocarousel">La Catedral de Nuestra Señora de la Merced es un templo afiliado a la iglesia católica ubicada en el corazón de Bahía Blanca </p>
+          <p  className="textocarousel">La Catedral de Nuestra Señora de la Merced es un templo afiliado a la iglesia católica ubicada en el corazón de Bahía Blanca. </p>
         </Carousel.Caption >
       </Carousel.Item>
       <Carousel.Item >
          < img src="./img/bahiablancaa.jpg" text="Second slide" className="fotoss"  />
         <Carousel.Caption  className="textocarousel">
-          <h3  className="textocarousel">Second slide label</h3>
-          <p  className="textocarousel" >Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3  className="textocarousel">Plaza Rivadavia</h3>
+          <p  className="textocarousel" >Es el centro neurálgico de Bahía Blanca. De ella parten las calles principales de la ciudad. Está rodeada de comercios, restaurant, etc.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item >
-        <img src="./img/municipalidad.jpeg" text="Second slide" className="fotoss" />
+        <img src="./img/Universidad_Nacional_Sur_UNS.webp" text="Second slide" className="fotoss" />
         <Carousel.Caption className="textocarousel">
-          <h3  className="textocarousel">Third slide label</h3>
-          <p  className="textocarousel">
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+          <h3  className="textocarousel">Universidad Nacional del Sur</h3>
+          <p  className="textocarousel">Esta es una de las sedes de la UNS, ubicada en la Avda. Alem. Su gran trayectoria se conoce por las ingenierías. Después incorpora parte de Historia, abogacía, medicina, arquitectura.</p>
         </Carousel.Caption>
       </Carousel.Item>
        </Carousel>
