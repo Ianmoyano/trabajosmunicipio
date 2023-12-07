@@ -13,7 +13,7 @@ export const CV = () => {
   const [nombreSeleccionado, SetNombreSeleccionado] = useState('');
   const [edadSeleccionada, SetEdadSeleccionada] = useState('');
 
-  const onSubmit = (data  ) => {
+  const onSubmit = (data) => {
     console.log(data);
   
     alert('Datos enviados correctamente!!')
@@ -30,10 +30,10 @@ export const CV = () => {
   };
   const handleNombreChange =(event) => {
     SetNombreSeleccionado(event.target.value);
-  }
+  };
   const handleEdadChange = (event) => {
     SetEdadSeleccionada (event.target.value);
-  }
+  };
 
   const candidatosFiltrados = datos.filter((item) => {
     const filtroFulltime = !fulltimeSeleccionadas || item.fullTime === fulltimeSeleccionadas;
@@ -168,6 +168,12 @@ export const CV = () => {
             <option value="no">No</option>
           </select></label>
         </div><br></br>
+        <label className="subirlabel">Subir foto (opcional)</label>
+        <input 
+        className="subirfoto" 
+        type="file"
+        accept="image/png image/jpeg image/jpg"/>
+
         <input className="submit" type="submit" value="Enviar CV" />
         </div>
       </form>
