@@ -7,7 +7,7 @@ import { Container } from "reactstrap";
 import datos from "../candidatosdisp.json";
 
 export const CV = () => {
-  const { register, formState: { errors }, handleSubmit } = useForm();
+  const { register, formState: { errors }, handleSubmit, reset } = useForm();
   const [fulltimeSeleccionadas, SetFulltimeSeleccionadas] = useState(''); 
   const [movilidadSeleccionada, SetMovilidadSeleccionada] = useState(''); 
   const [nombreSeleccionado, SetNombreSeleccionado] = useState('');
@@ -15,6 +15,10 @@ export const CV = () => {
 
   const onSubmit = (data  ) => {
     console.log(data);
+  
+    alert('Datos enviados correctamente!!')
+  reset()
+  
   
   };
   const handleFulltimeChange = (event) => {
