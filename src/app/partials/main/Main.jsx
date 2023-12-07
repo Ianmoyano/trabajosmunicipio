@@ -1,6 +1,9 @@
 "use client"
 import React from "react";
 import { useRouter } from "next/navigation"
+import Carousel from 'react-bootstrap/Carousel';
+import {bahia} from 'public/img/bahiablanca.jpg';
+
 
 export const Main = () => {
   const router = useRouter();
@@ -14,9 +17,35 @@ export const Main = () => {
    </div>
    
     <img className="imagen1" src="./img/bahiablanca.png" alt="Geo ubicación de el partido de Bahía blanca" />
-    <img className="imagen2" src="./img/bahiablancaa.jpg" alt="Geo ubicación de el partido de Bahía blanca" />
+   
     <div className="empleos">Con esta pagina web de la municipalidad de Bahía Blanca buscamos  que las personas que necesiten un trabajo puedan hacerlo mediante nosotros. Porque VOS importas, para conocer más apreta el siguiente botón
     </div>
+     <Carousel className="carousel">
+      <Carousel.Item >
+        <img src="./img/catedral.jpg" text="Second slide" className="fotoss"  />
+        <Carousel.Caption  className="textocarousel" >
+          <h3  className="textocarousel">Catedral de Bahía Blanca</h3>
+          <p  className="textocarousel">La Catedral de Nuestra Señora de la Merced es un templo afiliado a la iglesia católica ubicada en el corazón de Bahía Blanca </p>
+        </Carousel.Caption >
+      </Carousel.Item>
+      <Carousel.Item >
+         < img src="./img/bahiablancaa.jpg" text="Second slide" className="fotoss"  />
+        <Carousel.Caption  className="textocarousel">
+          <h3  className="textocarousel">Second slide label</h3>
+          <p  className="textocarousel" >Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item >
+        <img src="./img/municipalidad.jpeg" text="Second slide" className="fotoss" />
+        <Carousel.Caption className="textocarousel">
+          <h3  className="textocarousel">Third slide label</h3>
+          <p  className="textocarousel">
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+       </Carousel>
+  
     
 <button onClick={() => navegarAEmpleos()} className="boton">Empleos disponibles</button> 
 <div className="linea2"></div>
